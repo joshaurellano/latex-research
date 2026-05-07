@@ -1,0 +1,362 @@
+\documentclass{research}
+
+\usepackage{graphicx} %LaTeX package to import graphics
+\graphicspath{{images/}} %configuring the graphicx package
+
+\usepackage{ragged2e} % Add this to your preamble
+
+% Title Page Info
+\title{}
+\author{Fritzgerald Enric T. Imperial}
+\submission{A Special Project Presented to the Faculty of the College of Computer Studies, Naga College Foundation, Inc., Naga City}
+\researchyear{2026}
+
+\addbibresource{references.bib}
+
+\begin{document}
+
+% Generate Title Page
+\thispagestyle{empty}
+\begin{center}
+  \vspace*{1in}
+  {\Huge\bfseries Data-Driven Approach to Flood Control Monitoring and Forecasting \par}
+  \vspace{1in}
+  A Capstone Project\\
+  Presented to the Faculty of the\\
+  College of Computer Studies\\
+  Naga College Foundation, Inc.\\
+  Naga City\\
+  \vspace{1in}
+  In Partial Fulfillment of\\
+  The Requirements for the Degree\\
+  Bachelor of Science in Information Systems\\
+  \vspace{0.5in}
+Joshua Anthony S. Aurellano \\
+Chelsea Nicole Cinco \\
+Euseph Von General \\
+Mikkie Perfecto \\
+
+   \vspace*{0.5in}
+  2027
+\end{center}
+\clearpage
+
+% Approval Page
+\chapter*{}
+
+\pagestyle{empty} % Removes page numbers
+
+\begin{center}
+    NAGA COLLEGE FOUNDATION, INC.\\
+    College of Computer Studies\\
+    City of Naga\\
+    \vspace{0.3in}
+    
+    \textbf{APPROVAL SHEET}
+\end{center}
+
+\vspace{0.1in}
+
+This thesis project of \textbf{ORIEL T. ALDE JR} and \textbf{OSCAR JOMER R. LLABRES} entitled \textbf{``INTELLIGENT ROUTING AND DATA ANALYTICS FOR OPTIMUM TOURISM ITINERARIES''} was prepared and submitted in partial fulfillment of the requirements for the degree of Bachelor of Science in Computer Science. It has been examined and is recommended for acceptance and approval for oral examination.
+
+\vspace{2em}
+
+\begin{center}
+    \textbf{FRITZGERALD ENRIC T. IMPERIAL}\\
+    Adviser
+\end{center}
+
+\vspace{2em}
+
+\begin{center}
+    \textbf{THESIS COMMITTEE:} \\
+    \vspace{0.3in}
+    \textbf{RONALD O. BALDEMORO}\\
+    Chairman
+\end{center}
+
+% \vspace
+
+\noindent\begin{minipage}{0.5\textwidth}
+    \centering
+    \textbf{MARBERT P. PLAZO}\\
+    Panel Member
+\end{minipage}%
+\begin{minipage}{0.5\textwidth}
+    \centering
+    \textbf{ANDY B. DURANTE}\\
+    Panel Member
+\end{minipage}
+
+\vspace{2em}
+
+\begin{center}
+    \textbf{LIELA B. GARDOSE}\\
+    Panel Secretary
+\end{center}
+
+\vspace{2em}
+
+\begin{center}
+    \textbf{PANEL OF EXAMINERS}
+\end{center}
+
+\vspace{2em}
+
+\noindent Approved by the Committee on Oral Examinations on March 24, 2026.
+
+\vspace{2em}
+
+\begin{center}
+    \textbf{RONALD O. BALDEMORO}\\
+    Chairman
+\end{center}
+
+\vspace{2em}
+
+\noindent\begin{minipage}{0.5\textwidth}
+    \centering
+    \textbf{MARBERT P. PLAZO}\\
+    Panel Member
+\end{minipage}%
+\begin{minipage}{0.5\textwidth}
+    \centering
+    \textbf{ANDY B. DURANTE}\\
+    Panel Member
+\end{minipage}
+
+\vspace{0.3in}
+
+\noindent Accepted and approved in partial fulfillment of the requirements for the degree of Bachelor of Science in Computer Science.
+
+\vspace{2em}
+
+\begin{center}
+    \textbf{ANNA LORETTA C. ROMULO, MSIT}\\
+    Dean
+\end{center}
+
+\clearpage
+
+% Editor's Certification
+\chapter*{}
+
+\pagestyle{empty} % Removes page numbers
+
+\begin{center}
+    NAGA COLLEGE FOUNDATION, INC.\\
+    College of Computer Studies\\
+    City of Naga\\
+    \vspace{0.3in}
+    
+    \textbf{SECRETARY'S CERTIFICATION}
+\end{center}
+
+\vspace{0.1in}
+
+This thesis project of \textbf{ORIEL T. ALDE JR} and \textbf{OSCAR JOMER R. LLABRES} entitled \textbf{``INTELLIGENT ROUTING AND DATA ANALYTICS FOR OPTIMUM TOURISM ITINERARIES''} was prepared and submitted in partial fulfillment of the requirements for the degree of Bachelor of Science in Computer Science. It has been examined and is recommended for acceptance and approval for oral examination.
+
+\vspace{2em}
+
+\begin{center}
+    \textbf{LIELA B. GARDOSE}\\
+    Secretary
+\end{center}
+
+\clearpage
+
+% Secretary's Certification
+\chapter*{}
+
+\pagestyle{empty} % Removes page numbers
+
+\begin{center}
+    NAGA COLLEGE FOUNDATION, INC.\\
+    College of Computer Studies\\
+    City of Naga\\
+    \vspace{0.3in}
+    
+    \textbf{EDITOR'S CERTIFICATION}
+\end{center}
+
+\vspace{0.1in}
+
+This thesis project of \textbf{ORIEL T. ALDE JR} and \textbf{OSCAR JOMER R. LLABRES} entitled \textbf{``INTELLIGENT ROUTING AND DATA ANALYTICS FOR OPTIMUM TOURISM ITINERARIES''} was prepared and submitted in partial fulfillment of the requirements for the degree of Bachelor of Science in Computer Science. It has been examined and is recommended for acceptance and approval for oral examination.
+
+\vspace{2em}
+
+\begin{center}
+    \textbf{FULLNAME B. LASTNAME}\\
+    Editor
+\end{center}
+
+\clearpage
+
+% Acknowledgment
+\chapter*{}
+
+\pagestyle{empty} % Removes page numbers
+
+\begin{center}
+    % NAGA COLLEGE FOUNDATION, INC.\\
+    % College of Computer Studies\\
+    % City of Naga\\
+    % \vspace{0.3in}    
+    \textbf{ACKNOWLEDGMENT}
+\end{center}
+
+\vspace{0.1in}
+
+The researcher/s would like extend his/her/their thanks to . . .
+\clearpage
+
+% Abstract
+\chapter*{}
+
+\pagestyle{empty} % Removes page numbers
+
+\begin{center}
+    \large \textbf{Abstract}
+\end{center}
+
+\vspace{0.2in}
+
+% Using a table for the header info as requested
+\noindent
+\begin{tabular}{@{}p{0.3\textwidth} p{0.65\textwidth}@{}}
+    \textbf{Title:} & \textbf{Data-Driven Approach to Flood Control Monitoring and Forecasting} \\ [0.8em]
+    \textbf{Researcher:} & Joshua Anthony S. Aurellano , Chelsea Nicole Cinco, Euseph Von General, Mikkie Perfecto \\ [0.8em]
+    \textbf{Type of Document:} & Unpublished Undergraduate Special Project (2026) \\ [0.8em]
+    \textbf{Host/Accrediting School:} & Naga College Foundation, Inc. \\ [0.8em]
+    \textbf{City:} & Naga City \\ [0.8em]
+    \textbf{Region:} & Region V \\ [0.8em]
+    \textbf{Year of Completion:} & 2027 \\ [0.8em]
+    \textbf{Adviser:} & Fritzgerald Enric T. Imperial \\ [0.8em]
+    % \textbf{Keywords:} & Violence Against Women and Children (VAWC), Emergency Response System, Dijkstra's Algorithm, Yen's K-Shortest Path Algorithm, Barangay-Level Reporting, Mobile Application \\
+\end{tabular}
+
+\vspace{0.4in}
+
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+
+Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+
+\clearpage
+
+\tableofcontents
+
+\clearpage
+
+\listoffigures
+
+\clearpage
+
+\listoftables
+
+\clearpage
+
+\clearpage
+
+%-----------------------------
+% Chapter 1
+%-----------------------------
+\chapter{Introduction}
+
+\section{Background of the Study}
+
+
+\section{Review of Related Literature}
+
+\section{Synthesis of the State-of-the-Art}
+
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+\section{Gap Bridged by the Study}
+
+\section{Theoretical Framework}
+
+\section{Conceptual Framework}
+
+\section{Statement of the Problem}
+
+\section{Assumptions}
+
+\section{Conceptual Framework}
+
+\section{Hypothesis}
+
+\section{Scope and Delimitation}
+
+\section{Conceptual Framework}
+
+\section{Significance of the Study}
+
+\section{Definition of Terms}
+
+\clearpage
+
+%-----------------------------
+% Chapter 2
+%-----------------------------
+\chapter{Methods}
+
+\section{Research Design}
+
+\section{Population and Sampling}
+
+\section{Research Locale}
+
+\section{Research Instrument}
+
+\section{Ethical Considerations}
+
+\section{Statistical Treatment of Data}
+
+\section{System Design and Architecture}
+
+\section{Software Development Process}
+
+\section{Validation and Testing Methods}
+
+\clearpage
+
+%-----------------------------
+% Chapter 3
+%-----------------------------
+\chapter{Results and Discussions}
+
+\section{Results}
+
+\subsection{Problem 1}
+
+\subsection{Problem 2}
+
+\subsection{Problem 3}
+
+\section{Design and System Plans}
+
+\section{Summary of Findings}
+
+\section{Conclusions}
+
+\section{Recommendations}
+
+%-----------------------------
+% References
+%-----------------------------
+
+\clearpage
+
+\printbibliography
+
+\clearpage
+
+\chapter*{Curriculum Vitae}
+
+\chapter*{Appendices}
+
+\end{document}
