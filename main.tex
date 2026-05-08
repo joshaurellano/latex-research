@@ -1,21 +1,30 @@
 \documentclass{research}
 
-\usepackage{graphicx} %LaTeX package to import graphics
-\graphicspath{{images/}} %configuring the graphicx package
-
-\usepackage{ragged2e} % Add this to your preamble
+\usepackage{graphicx}
+\graphicspath{{images/}}
+\usepackage{ragged2e}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{microtype}
+\setlength{\emergencystretch}{3em}
 
 % Title Page Info
 \title{}
-\author{Fritzgerald Enric T. Imperial}
-\submission{A Special Project Presented to the Faculty of the College of Computer Studies, Naga College Foundation, Inc., Naga City}
-\researchyear{2026}
+\author{Joshua Anthony S. Aurellano, Chelsea Nicole Cinco, Euseph Von General, Mikkie Perfecto}
+\submission{A Capstone Project Presented to the Faculty of the College of Computer Studies, Naga College Foundation, Inc., Naga City}
+\researchyear{2027}
 
 \addbibresource{references.bib}
 
+\setlength{\headheight}{14.5pt}
+\addtolength{\topmargin}{-2.5pt}
+
 \begin{document}
 
-% Generate Title Page
+% ─────────────────────────────────────────────
+% TITLE PAGE
+% ─────────────────────────────────────────────
 \thispagestyle{empty}
 \begin{center}
   \vspace*{1in}
@@ -28,305 +37,425 @@
   Naga City\\
   \vspace{1in}
   In Partial Fulfillment of\\
-  The Requirements for the Degree\\
+  the Requirement for the Degree\\
   Bachelor of Science in Information Systems\\
   \vspace{0.5in}
-Joshua Anthony S. Aurellano \\
-Chelsea Nicole Cinco \\
-Euseph Von General \\
-Mikkie Perfecto \\
-
-   \vspace*{0.5in}
+  Joshua Anthony S. Aurellano \\
+  Chelsea Nicole Cinco \\
+  Euseph Von General \\
+  Mikkie Perfecto \\
+  \vspace*{0.5in}
   2027
 \end{center}
 \clearpage
 
-% Approval Page
-\chapter*{}
-
-\pagestyle{empty} % Removes page numbers
-
-\begin{center}
-    NAGA COLLEGE FOUNDATION, INC.\\
-    College of Computer Studies\\
-    City of Naga\\
-    \vspace{0.3in}
-    
-    \textbf{APPROVAL SHEET}
-\end{center}
-
-\vspace{0.1in}
-
-This thesis project of \textbf{ORIEL T. ALDE JR} and \textbf{OSCAR JOMER R. LLABRES} entitled \textbf{``INTELLIGENT ROUTING AND DATA ANALYTICS FOR OPTIMUM TOURISM ITINERARIES''} was prepared and submitted in partial fulfillment of the requirements for the degree of Bachelor of Science in Computer Science. It has been examined and is recommended for acceptance and approval for oral examination.
-
-\vspace{2em}
-
-\begin{center}
-    \textbf{FRITZGERALD ENRIC T. IMPERIAL}\\
-    Adviser
-\end{center}
-
-\vspace{2em}
-
-\begin{center}
-    \textbf{THESIS COMMITTEE:} \\
-    \vspace{0.3in}
-    \textbf{RONALD O. BALDEMORO}\\
-    Chairman
-\end{center}
-
-% \vspace
-
-\noindent\begin{minipage}{0.5\textwidth}
-    \centering
-    \textbf{MARBERT P. PLAZO}\\
-    Panel Member
-\end{minipage}%
-\begin{minipage}{0.5\textwidth}
-    \centering
-    \textbf{ANDY B. DURANTE}\\
-    Panel Member
-\end{minipage}
-
-\vspace{2em}
-
-\begin{center}
-    \textbf{LIELA B. GARDOSE}\\
-    Panel Secretary
-\end{center}
-
-\vspace{2em}
-
-\begin{center}
-    \textbf{PANEL OF EXAMINERS}
-\end{center}
-
-\vspace{2em}
-
-\noindent Approved by the Committee on Oral Examinations on March 24, 2026.
-
-\vspace{2em}
-
-\begin{center}
-    \textbf{RONALD O. BALDEMORO}\\
-    Chairman
-\end{center}
-
-\vspace{2em}
-
-\noindent\begin{minipage}{0.5\textwidth}
-    \centering
-    \textbf{MARBERT P. PLAZO}\\
-    Panel Member
-\end{minipage}%
-\begin{minipage}{0.5\textwidth}
-    \centering
-    \textbf{ANDY B. DURANTE}\\
-    Panel Member
-\end{minipage}
-
-\vspace{0.3in}
-
-\noindent Accepted and approved in partial fulfillment of the requirements for the degree of Bachelor of Science in Computer Science.
-
-\vspace{2em}
-
-\begin{center}
-    \textbf{ANNA LORETTA C. ROMULO, MSIT}\\
-    Dean
-\end{center}
-
-\clearpage
-
-% Editor's Certification
-\chapter*{}
-
-\pagestyle{empty} % Removes page numbers
-
-\begin{center}
-    NAGA COLLEGE FOUNDATION, INC.\\
-    College of Computer Studies\\
-    City of Naga\\
-    \vspace{0.3in}
-    
-    \textbf{SECRETARY'S CERTIFICATION}
-\end{center}
-
-\vspace{0.1in}
-
-This thesis project of \textbf{ORIEL T. ALDE JR} and \textbf{OSCAR JOMER R. LLABRES} entitled \textbf{``INTELLIGENT ROUTING AND DATA ANALYTICS FOR OPTIMUM TOURISM ITINERARIES''} was prepared and submitted in partial fulfillment of the requirements for the degree of Bachelor of Science in Computer Science. It has been examined and is recommended for acceptance and approval for oral examination.
-
-\vspace{2em}
-
-\begin{center}
-    \textbf{LIELA B. GARDOSE}\\
-    Secretary
-\end{center}
-
-\clearpage
-
-% Secretary's Certification
-\chapter*{}
-
-\pagestyle{empty} % Removes page numbers
-
-\begin{center}
-    NAGA COLLEGE FOUNDATION, INC.\\
-    College of Computer Studies\\
-    City of Naga\\
-    \vspace{0.3in}
-    
-    \textbf{EDITOR'S CERTIFICATION}
-\end{center}
-
-\vspace{0.1in}
-
-This thesis project of \textbf{ORIEL T. ALDE JR} and \textbf{OSCAR JOMER R. LLABRES} entitled \textbf{``INTELLIGENT ROUTING AND DATA ANALYTICS FOR OPTIMUM TOURISM ITINERARIES''} was prepared and submitted in partial fulfillment of the requirements for the degree of Bachelor of Science in Computer Science. It has been examined and is recommended for acceptance and approval for oral examination.
-
-\vspace{2em}
-
-\begin{center}
-    \textbf{FULLNAME B. LASTNAME}\\
-    Editor
-\end{center}
-
-\clearpage
-
-% Acknowledgment
-\chapter*{}
-
-\pagestyle{empty} % Removes page numbers
-
-\begin{center}
-    % NAGA COLLEGE FOUNDATION, INC.\\
-    % College of Computer Studies\\
-    % City of Naga\\
-    % \vspace{0.3in}    
-    \textbf{ACKNOWLEDGMENT}
-\end{center}
-
-\vspace{0.1in}
-
-The researcher/s would like extend his/her/their thanks to . . .
-\clearpage
-
-% Abstract
-\chapter*{}
-
-\pagestyle{empty} % Removes page numbers
-
-\begin{center}
-    \large \textbf{Abstract}
-\end{center}
-
-\vspace{0.2in}
-
-% Using a table for the header info as requested
-\noindent
-\begin{tabular}{@{}p{0.3\textwidth} p{0.65\textwidth}@{}}
-    \textbf{Title:} & \textbf{Data-Driven Approach to Flood Control Monitoring and Forecasting} \\ [0.8em]
-    \textbf{Researcher:} & Joshua Anthony S. Aurellano , Chelsea Nicole Cinco, Euseph Von General, Mikkie Perfecto \\ [0.8em]
-    \textbf{Type of Document:} & Unpublished Undergraduate Special Project (2026) \\ [0.8em]
-    \textbf{Host/Accrediting School:} & Naga College Foundation, Inc. \\ [0.8em]
-    \textbf{City:} & Naga City \\ [0.8em]
-    \textbf{Region:} & Region V \\ [0.8em]
-    \textbf{Year of Completion:} & 2027 \\ [0.8em]
-    \textbf{Adviser:} & Fritzgerald Enric T. Imperial \\ [0.8em]
-    % \textbf{Keywords:} & Violence Against Women and Children (VAWC), Emergency Response System, Dijkstra's Algorithm, Yen's K-Shortest Path Algorithm, Barangay-Level Reporting, Mobile Application \\
-\end{tabular}
-
-\vspace{0.4in}
-
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-
-It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-
-Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-
-\clearpage
-
 \tableofcontents
-
 \clearpage
-
 \listoffigures
-
 \clearpage
-
 \listoftables
-
 \clearpage
 
-\clearpage
-
-%-----------------------------
-% Chapter 1
-%-----------------------------
+% ─────────────────────────────────────────────
+% CHAPTER 1 – INTRODUCTION
+% ─────────────────────────────────────────────
 \chapter{Introduction}
 
 \section{Background of the Study}
 
+Many natural disasters and occurrences significantly affected communities due to climate change. One of these is flooding, which has become prevalent in recent years and is considered a major global problem. The number of people exposed to floods globally has steadily risen from 28.1 million in 1970 to 35.1 million in 2020---an increase of 24.9\%, with most flood-related deaths and economic losses recorded in Asia \cite{undrr2025floods}. This increase in frequency of occurrence causes disruption of services, damages, and in some cases even costs lives. Climate change and urban development have intensified flooding threats, as water flow becomes constrained by man-made structures \cite{koutsovili2023early}.
+
+The Philippines' geographical position makes it particularly susceptible to natural disasters, and flooding has become more frequent and devastating in recent years. Tropical Storm Trami (Kristine) exemplifies this severity, bringing intense rainfall that affected over 8.6 million people, displaced 745,000, and caused 300 casualties, with the Bicol Region severely impacted \cite{wfp2024kristine}. As flooding effects intensify, traditional early warning systems relying on water level monitoring sensors have shown critical limitations related to power, network stability, and range. Additionally, water level information alone is insufficient for timely evacuation since water levels can rise rapidly during flooding events \cite{piadeh2022critical}.
+
+Aside from climate change, human activities such as illegal mining, deforestation, and other harmful activities have brought negative impacts on the environment, whose effects are now widely felt. This has raised urgent concerns, especially for those living in low-lying areas, making flood detection and early warning systems a critical need for communities in order to mitigate risks and aid in preparation. Such systems can be used to mitigate risks related to flooding and enhance disaster preparedness, aligning with the United Nations Sustainable Development Goal (SDG) 13 on Climate Action. Additionally, the system aims to build safer and more resilient communities by providing information that supports overall planning within LGU disaster preparedness programs. By fostering innovation through the integration of data from different sources, this study introduces a data-driven flood monitoring and forecasting system, aligned with SDG 9 on Industry, Innovation and Infrastructure and SDG 11 on Sustainable Cities and Communities.
+
+Flood warning systems built upon prediction models present a proactive method in hazard assessment and flood management \cite{hammood2021systematic}, that produce accurate predictions using the volume, quality, and diversity of data rather than prior knowledge of the phenomenon \cite{guo2022datadriven}. Development of data-driven forecasting systems has been widely studied and supported as a means of disaster preparation. These innovations play a vital role in fostering disaster resiliency and preparedness. The purpose of this study is to develop a data-driven flood monitoring and forecasting system that visualizes data processed by an Artificial Intelligence and Machine Learning (AI/ML) engine, thereby enhancing flood risk management and community preparedness.
 
 \section{Review of Related Literature}
 
-\section{Synthesis of the State-of-the-Art}
+\subsection*{Non-Data-Driven vs.\ Data-Driven Approach in Flood Monitoring}
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+Flooding events drive communities to develop resilient early warning and monitoring systems with traditional approaches relying on physical technologies such as sensors, LoRaWAN and image processing. These methods are effective but constrained by high implementation costs, maintenance requirements and communication challenges \cite{tao2024review,bukhari2025review,dondang2021design,tolentino2022real}.
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+Several limitations include ultrasonic sensors becoming prone to measurement errors when it comes close to water surfaces \cite{te2024smart} and limited battery capacity with high short circuit risk \cite{zhao2025water}. They also struggle in capturing the complex and nonlinear flood events \cite{linus2024performance} and of urban hydrological systems \cite{ye2025capturing} and various unseen events also affect measurements of flood depth \cite{liu2025comprehensive}.
+
+\cite{zakaria2023development} observed that despite availability of studies applying IoT concept in flood monitoring, they fail to address the issues related to connectivity range, microcontroller processing capabilities, sensing accuracy, energy consumption and practical implementation which underscored the need for more efficient and reliable FMFS.
+
+Data-driven approaches outperform traditional methods \cite{an2025hybrid} and help create informed flood prevention decisions \cite{aldhafiri2025leveraging,xu2024hybrid} as well as enhance emergency response and preparations \cite{yi2024reservoir}. It addresses the gaps of traditional methods \cite{rathnasiri2023datadriven} demonstrating enhanced accuracy \cite{aravamudan2025superresolution} and effectively simulates flood processes \cite{tang2023flood} maintaining reliable performance across all times \cite{asif2025review}.
+
+The integration of models such as Machine Learning (ML) and Artificial Intelligence (AI) showcase capabilities in handling different tasks in FMFS \cite{chiang2024efficient,liu2024generative}. Advances in ML and Deep Learning (DL) redefine FMFS which brought enhanced accuracy in forecasting ability \cite{kuhaneswaran2025evolution,ni2024datadriven} by reducing computational time \cite{cache2024enhancing,mou2025ai} and ability to handle complex data \cite{ghorpade2021flood}. This supports \cite{anik2025evolution} and \cite{lou2026highly} as both show the application of ML and AI significantly improves accuracy and computational efficiency of FMFS, and \cite{chafjiri2024enhancing} demonstrates the ability of data-driven models to accurately estimate flood. Lastly, the data-driven approach is useful in monitoring rivers as shown in the results of \cite{palash2024datadriven} and \cite{okuno2021practical} as both demonstrate its effectiveness in small to large river basins.
+
+The adoption of a data-driven approach with the applications of AI and ML models has given significant enhancement in monitoring and forecasting flood events. This shift provides tools in assisting decision-making efforts ensuring the safety of communities and resiliency to risks particularly in flooding.
+
+\subsection*{Data Integration and Modeling}
+
+Building data-driven FMFS, several data need to be collected and processed as scarcity of observed data and limitations of only one pose significant challenges \cite{song2024stateart,magro2025urban}, to enhance accuracy and response time of FMFS \cite{kumar2023state,shen2025new}. Data integration plays a vital role in a data-driven approach in FMFS as it would enhance flood prediction by having a holistic view of factors contributing to flood events.
+
+Data integration techniques can significantly improve the detection of sudden flood events in coastal urban areas \cite{shampa2025integration}. With more data available, it creates a comprehensive flood dataset \cite{dong2022predictive} leveraging different data including weather forecast and urban hydrology to provide better flood prediction \cite{li2024optimizing,liu2024generative}. Building on this, \cite{thaisiam2024utilizing} uses feature separation combining two models to outperform other approaches in accuracy.
+
+Data integration is essential for processing complex datasets as designs lacking temporal modeling tend to perform poorly in unseen events \cite{feng2025comparative,gharehbaghi2025developing}. \cite{byaruhanga2024evolution} notes that between 1993 and 2020, Time Series Models (TSM) were most used while ML models from 2011 to present are becoming more complex and data-driven which enhances accuracy and dependability though costly and requires high technicality.
+
+Big data gains prominence in showing effectiveness in forecasting and risk management \cite{ziyatbekova2025integrating,kommanaboina2024realtime} and techniques such as connecting temporal forecasting with spatial risk assessment is used to reduce impacts of flooding \cite{roohi2025hybrid}. Studies also suggest that Convolutional Neural Networks (CNN) model outperforms physical-based models on hidden watersheds and have minimal processing time \cite{gao2024enhancing,guo2022datadriven} while Feed Forward Neural Network (FFNN) trained using multiple regional parameters provide 84\% accuracy \cite{farooq2023ffm}. Long Short-Term Memory (LSTM) methods also show capability in predicting streamflow \cite{kordi2025integrating}; combined with CNN it produces ConvLSTM (Convolutional Long Short-Term Memory), which would effectively reflect dynamics of flood stages \cite{priyadharshini2025convlstm}.
+
+Integrating Neural Network (NN) and Deep Learning as well as Peripheral Component Analysis (PCA) provides efficient and fast computation time \cite{guo2020datadriven,mou2025ai,rana2024fusion}. Advancements in satellite-based remote-sensing algorithms allow global flood observation and address challenges such as cloud cover, flooded vegetation and complex urban settings \cite{aravamudan2025superresolution,fawakherji2025flood,schumann2023flood}. Artificial Neural Network (ANN) is used to find relationships within data while Adaptive Neuro-Fuzzy Inference System (ANFIS) and Data Assimilation (DA) produce more accurate and timely predictions \cite{seydi2022fusion,annis2021gfplain}. AI-enhanced hydrological and ML models enhance forecast accuracy and identify vulnerable areas \cite{ougahi2025enhanced,yang2024advancing}.
+
+The development of data integration and modeling techniques provides innovative and modern solutions in terms of flood monitoring and forecasting. The ability of the system to aggregate different data translating into valuable insights has proven significant in guiding decision-making, offering a new and practical way in achieving disaster resiliency. By enhancing the capability in flood prediction and data processing, it bridges the gap in traditional methods in FMFS.
+
+\subsection*{Proactive Warning Systems}
+
+One of the objectives of data-driven flood monitoring and forecasting is to become proactive by leveraging different sources using AI models as they are capable of processing large data at a fast rate \cite{demelo2024early,zlopasa2024leveraging}. Flood Early Warning System (FEWS) enables early warning from flood risk but remains a challenge in urban landscapes \cite{hofmann2020risk,lee2020integrated,palash2024datadriven} and flash floods due to complexity \cite{soares2025ml4ff}.
+
+AI/ML becomes a factor in how traditional FEWS shifts from reactive to proactive \cite{alrawas2024critical,piadeh2022critical} as there is a growing need for reliable flood forecasting systems due to urbanization and climate change \cite{fernandeznovoa2024enhancing,hossoda2025datadriven,oddo2024deep}. Several studies \cite{lee2023maxfloodcast,alasali2021sustainable,najafi2024high} highlighted that proactive warning systems provide critical information which aids in emergency response.
+
+The use of ML and LSTM networks shows remarkable performance in estimating workflow, identifying patterns and enhancing accuracy \cite{nevo2022flood,khan2025development,aravamudan2025superresolution}. LSTM emerged as the dominant algorithm \cite{kuhaneswaran2025evolution} among others while ML used in hybrid frameworks overcomes limitations of physical-based models \cite{li2024optimizing,refadah2025development}. Deep learning models gained popularity in flood forecasting due to improved accuracy and computational ability compared to traditional ML methods \cite{situ2024improving,yi2024reservoir}.
+
+Several systems and models were also explored such as Extreme Gradient Boosting (XGBoost) that forecasts flood stages without requiring external triggers \cite{sanders2022datadriven}, Earth Observation (EO) based systems which show near-real-time flood depth estimates \cite{destefanis2025advancing}, Markov chains indicate improved forecast accuracy alongside existing emergency protocols \cite{bibbo2025flood} and community-focused EWS capabilities \cite{cheong2024development}. The hydrometeorological method is able to accurately forecast flash floods in real time \cite{troselj2023realtime}. The PSO--TCN--Bootstrap flood forecasting model showcases superior capability and robustness in river basins \cite{yu2025research}. The hybrid framework of Deep Q-Network (DQN) and Twin Delayed DDPG (TD3) addresses various challenges from uncertainty \cite{rashid2024realtime}. Also, the use of Big Data provides accurate and reliable monitoring of water body inundation areas while effectively assessing disaster severity \cite{hou2025development}.
+
+The evolution of data processing especially with advancements of different models paved the way in transforming from simple water level monitoring systems into more intelligent and proactive warning systems. This advancement fills the gap of traditional systems where data may be unpredicted especially in times where floods tend to rise fast. This development ensures that proper flood risk management would be implemented by providing data-driven insight. It enables better flood readiness through early warning giving ample time to prepare.
+
+\section{Synthesis of the State of the Art}
+
+Traditional flood monitoring and forecasting systems use physical-based technologies \cite{tao2024review,bukhari2025review,dondang2021design,tolentino2022real} but limitations including high costs, maintenance and communications exist. Also, measurement errors in ultrasonic sensors nearing water surfaces \cite{te2024smart}, battery capacity and short circuit \cite{zhao2025water}, difficulty capturing complex and nonlinear flood events \cite{linus2024performance}, challenges in modeling urban hydrological systems \cite{ye2025capturing}, as well as unseen events on flood depth measurements \cite{liu2025comprehensive}. Despite existing studies, they fail to address connectivity range, microcontroller processing capabilities, sensing accuracy, energy consumption, and practical implementation which shows the need for more efficient and reliable FMFS \cite{zakaria2023development}.
+
+Data-driven approaches outperform traditional methods \cite{an2025hybrid}, by supporting flood prevention decisions \cite{aldhafiri2025leveraging,xu2024hybrid} that enhance emergency response \cite{yi2024reservoir}, addressing gaps \cite{rathnasiri2023datadriven}, enhancing accuracy \cite{aravamudan2025superresolution}, simulating flood processes \cite{tang2023flood}, and maintaining reliable performance across varying conditions \cite{asif2025review}. The integration of ML and AI models expanded FMFS capabilities \cite{chiang2024efficient,liu2024generative}, with Deep Learning forecasting accuracy \cite{kuhaneswaran2025evolution,ni2024datadriven} reducing computational time \cite{cache2024enhancing,mou2025ai} and handling large data \cite{ghorpade2021flood}, as stated by \cite{anik2025evolution,lou2026highly,chafjiri2024enhancing}, with effectiveness that shows in small to large river basins \cite{palash2024datadriven,okuno2021practical}.
+
+Data integration and modeling have become the foundation to scalable and accurate FMFS as scarcity of observed data and limitation of single sources pose significant challenges \cite{song2024stateart,magro2025urban}. It enhances system accuracy and response time \cite{kumar2023state,shen2025new}. Integrating different data improves detection of sudden flood events in coastal urban areas \cite{shampa2025integration}, enables comprehensive flood datasets \cite{dong2022predictive}, and leverages weather forecasts and urban hydrology for better prediction \cite{li2024optimizing,thaisiam2024utilizing}. Feature separation techniques outperform existing approaches \cite{thaisiam2024utilizing}. Designs lacking temporal modeling perform poorly on unseen events \cite{feng2025comparative,gharehbaghi2025developing}. The evolution from Time Series Models to increasingly complex ML models brought enhanced accuracy and dependability, but at higher technical cost \cite{byaruhanga2024evolution}.
+
+Big Data has also proven effective in forecasting and risk management \cite{ziyatbekova2025integrating,kommanaboina2024realtime}, with techniques connecting temporal forecasting and spatial risk assessment reducing flood impacts \cite{roohi2025hybrid}. CNN models outperform physical-based models on hidden watersheds with minimal processing time \cite{gao2024enhancing,guo2022datadriven}, FFNN trained on regional parameters achieves 84\% accuracy \cite{farooq2023ffm}, and LSTM demonstrates strong streamflow prediction capability \cite{kordi2025integrating}, combining with CNN as ConvLSTM reflects flood stage dynamics \cite{priyadharshini2025convlstm}. Integrating NN, DL, and PCA provides efficient computation \cite{guo2020datadriven,mou2025ai,rana2024fusion}, and satellite-based remote sensing provides global flood observation and addresses challenges such as cloud cover and urban complexity \cite{aravamudan2025superresolution,fawakherji2025flood,schumann2023flood}. Models such as ANN, ANFIS, and Data Assimilation produce more accurate and timely predictions \cite{seydi2022fusion,annis2021gfplain}, while AI-enhanced hydrological models identify vulnerable areas and improve forecast accuracy \cite{ougahi2025enhanced,yang2024advancing}.
+
+The advancement of AI and ML paved the way for proactive FEWS from reactive \cite{alrawas2024critical,piadeh2022critical} due to growing demands \cite{fernandeznovoa2024enhancing,hossoda2025datadriven,oddo2024deep}. Proactive systems offer critical information aiding emergency response \cite{lee2023maxfloodcast,alasali2021sustainable,najafi2024high}. However, they continue to face challenges particularly in urban landscapes \cite{hofmann2020risk,lee2020integrated,palash2024datadriven} and flash flood scenarios due to complexity \cite{soares2025ml4ff}, which AI/ML models address through processing large data \cite{demelo2024early,zlopasa2024leveraging}. LSTM networks emerged as the dominant algorithm for streamflow estimation and pattern recognition \cite{kuhaneswaran2025evolution,nevo2022flood,khan2025development,aravamudan2025superresolution} and hybrid ML frameworks overcome limitations of physics-based models \cite{li2024optimizing,refadah2025development}. Deep learning models have gained prominence due to improved accuracy and computational efficiency over traditional ML methods \cite{situ2024improving,yi2024reservoir}.
+
+Various systems and models were explored, including XGBoost for trigger-free flood stage forecasting \cite{sanders2022datadriven}, EO-based systems for near-real-time flood depth estimation \cite{destefanis2025advancing}, Markov chains for improved forecast accuracy alongside emergency protocols \cite{bibbo2025flood}, community-focused EWS capabilities \cite{cheong2024development}, hydrometeorological methods for real-time flash flood forecasting \cite{troselj2023realtime}, the PSO--TCN--Bootstrap model that was superior on river basins \cite{yu2025research}, a hybrid Deep Q-Network and Twin Delayed DDPG framework for addressing uncertainty \cite{rashid2024realtime}, and Big Data-driven monitoring for accurate inundation assessment and disaster severity evaluation \cite{hou2025development}.
 
 \section{Gap Bridged by the Study}
 
+While various studies explored FMFS using machine learning and AI across different community needs and environments, limited research discusses the effectiveness of integrating multiple data sources for proactive monitoring at the barangay level. This study addresses this gap by developing a data-driven FMFS that provides barangay-scale forecasting, offering local disaster response units a more reliable tool for emergency preparedness. By enabling early warnings and valuable insights, the system contributes to disaster preparation efforts and promotes more resilient, informed communities in flood-prone areas.
+
 \section{Theoretical Framework}
 
+This study is grounded in three theories cited in \cite{hammood2021systematic} to guide the development and implementation. The primary theory is the DeLone and McLean (D\&M) IS Success Model, which evaluates variables influencing information system success: information quality, system quality, service quality, use, user satisfaction, and net benefits. This model guides the study by ensuring high system and information quality ensuring the system is both functional and usable to its intended users.
+
+One supporting theory is the Unified Theory of Acceptance and Use of Technology (UTAUT), which suggests that behavioral intent is the primary determinant of technology use, shaped by performance expectancy, effort expectancy, social influence, and facilitating conditions \cite{venkatesh2003user}. UTAUT guides the study through user-centric system design, ensuring the system meets user expectations in terms of effort and performance.
+
+Another supporting theory is the Diffusion of Innovation (DOI) Theory, popularized by Rogers, which focuses on how innovation is accepted by users through five key factors: complexity, observability, relative advantage, trialability, and compatibility. DOI justifies the need for innovation in barangay-scale FMFS by assessing how well the proposed system addresses existing gaps and how users perceive it as an improvement over current solutions.
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.85\textwidth]{fig1_theoretical_framework}
+    \caption{Theoretical Framework}
+    \label{fig:theoretical_framework}
+\end{figure}
+
+The proposed framework integrates three Information Systems (IS) theories---DeLone and McLean IS Success Model (D\&M), the Unified Theory of Acceptance and Use of Technology (UTAUT), and the Diffusion of Innovation (DOI) theory---to evaluate the success, acceptance, and adoption of the flood monitoring and forecasting system.
+
 \section{Conceptual Framework}
+
+This study implemented the enhanced system paradigm (Input-Process-Output-Outcome). The input will come from data gathered from users and experts on what system requirements are needed, including quality indicators in developing the data-driven approach in flood monitoring and forecasting. These will serve as the guide in designing the system prototype which integrates AI and machine learning. A series of functional testing will be conducted to ensure that the prototype adheres to the user's requirements. The final output of the study is the prototype that will provide the data-driven system through the AI/ML module integrated. This is expected to enhance the decision-making activities of the barangay officials to ensure the safety of the community during flood season.
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=\textwidth, height=0.85\textheight]{fig2_conceptual_framework}
+    \caption{Conceptual Framework: System Paradigm model with feedback loop of the Data-driven Approach in Flood Monitoring and Forecasting System}
+    \label{fig:conceptual_framework}
+\end{figure}
+
+\clearpage
 
 \section{Statement of the Problem}
 
+The main problem of the study is to design and develop a system that aims to fill the gaps in using traditional sensor-based flood monitoring. For successful development and implementation of the system, the following questions would be used as a guide:
+
+\begin{enumerate}
+    \item What is the current status of disaster management in monitoring flooding in the barangay?
+    \item What are the specific limitations and challenges encountered by the disaster management team using current flood monitoring methods?
+    \item What are the critical functional and non-functional requirements needed to develop a proactive, data-driven flood monitoring and forecasting system tailored to the needs of the barangay?
+    \item What is the level of compatibility between the proposed system and the existing operational procedures and resource capabilities of the disaster management team?
+    \item What visualization methods for flood forecasting data can ensure easy interpretation and actionability for non-technical LGU officials during emergency situations?
+    \item What is the level of user acceptability of the developed system among officials and residents in terms of usability, reliability, and functionality?
+\end{enumerate}
+
 \section{Assumptions}
 
-\section{Conceptual Framework}
+The following assumptions were made:
 
-\section{Hypothesis}
+\begin{itemize}
+    \item The current traditional or sensor-based flood monitoring methods employed have inherent limitations, latencies, or inefficiencies that hinder optimal disaster response and decision-making.
+    \item It is assumed that the disaster management team faces operational, technical, or resource-related challenges with their existing flood monitoring methods that warrant investigation and potential improvement.
+    \item There are specific, identifiable functional and non-functional requirements that, when integrated into a data-driven system, will effectively address the gaps in the barangay's current flood monitoring capabilities.
+    \item The proposed data-driven system can be designed to be compatible and interoperable with the existing operational procedures, technical resources, and workflow of the disaster management team.
+    \item Effective data visualization techniques significantly improve the ability of non-technical LGU officials to interpret complex forecasting data and make faster, more accurate decisions during emergencies compared to raw data presentation.
+    \item Officials and residents are willing to adopt new technology and that their level of acceptance can be accurately measured through indicators of usability, reliability, and functionality.
+\end{itemize}
 
 \section{Scope and Delimitation}
 
-\section{Conceptual Framework}
+The proposed Data-driven Flood Monitoring and Forecasting System aims to assist stakeholders in creating educated decisions. At the end, the study aims to deliver a functional application capable of visualizing data from the built model.
+
+The research would focus on development and evaluation of a visual dashboard and alert notification for a data-driven FMFS. This covers integration of the forecast data outputs that would come from an AI/ML model. The interface presents the forecast data. The system development will follow an Agile methodology to allow continuous feedback, refinement, and adaptation throughout the development process. System design would prioritize simplicity in User Interface (UI) layout for better User Experience (UX).
+
+To realize the success of the project, evaluation would be conducted such as functionality and quality tests using survey-based evaluation. It would also involve participation from barangay DRRMO and selected residents as system evaluators and pilot testers. Statistical analysis includes percentage, mean/weighted mean, and Likert-based interpretation for evaluating user perception. Survey instruments are provided in English and Bikol dialect to ensure user comprehension with the system interface utilizing Bikol and English language.
+
+The study is limited to be conducted in Barangay Triangulo, Naga City. This would utilize information implemented from their operational procedures with respect to the data needed in the design and development of the dashboard system. No physical sensor development would be involved including installation. All data would come from external sources and government agencies only.
 
 \section{Significance of the Study}
 
+The study sought to benefit the following stakeholders.
+
+\textbf{Residents.} The system can empower residents by providing them a more reliable and accurate flood prediction user-centric system.
+
+\textbf{Barangay LGU.} The data visualization, real-time updates and proactive warning system allows informed decision-making from the disaster management team especially in flood risk mitigation.
+
+\textbf{City Government.} The city government can also benefit from the data gathered for flood mitigation and response. It also aligns with the government's aims for innovation especially in digital technology.
+
+\textbf{Educational Institutions.} Schools within the area can benefit from the system's early warning capabilities to make informed decisions regarding class suspensions, student safety protocols, and campus evacuation procedures.
+
+\textbf{Other Researchers.} The results of this study can be used as a reference for future studies in related fields. The identified requirements can also serve as guidelines in building similar monitoring tools.
+
 \section{Definition of Terms}
+
+This section aims to define terms used in the context of the research for better understanding.
+
+\textbf{Data-Driven Approach.} The use of AI/ML models to analyze large datasets for forecasting, particularly useful in areas with limited physical measurements \cite{okuno2021practical}. In this study, this refers to the use of different data sources to forecast flood events to create insights that support decision-making.
+
+\textbf{Flood Control Monitoring.} In \cite{tao2024review}, it is the use of various sensors and processes to capture flood events. In this study, it refers to the continuous observation of meteorological data related to flooding conditions.
+
+\textbf{Flood Control Forecasting.} The use of ML models to create a timely and accurate warning to reduce flood-related risks for future predictions \cite{nevo2022flood}. In this study, it refers to the prediction of potential flood events based on computed models, trends, or real-time data inputs.
+
+\textbf{Decision Makers.} Persons primarily responsible for making informed decisions \cite{najafi2024high}. In this study, decision makers refer to individuals or groups responsible for responding to flood information, such as LGU officials, emergency managers, barangay personnel, and planning units.
+
+\textbf{Community Resilience.} The ability of a community to adapt and respond to disaster or harmful situations. In this study, community resilience refers to the capacity of local communities to prepare, respond, and recover from flood impacts, represented through preparedness levels and improved decision-making enabled by the system.
+
+\textbf{Early Warning System (EWS).} An integrated system used to monitor flood conditions and provide warnings for risk mitigation and preparation \cite{hammood2021systematic}. In this study, an early warning system refers to mechanisms that detect flood risk and issue alerts to decision makers or the community, represented through notifications, alerts, and automated warning triggers.
+
+\textbf{User Interface (UI).} The visual and interactive components through which users access and interact with flood monitoring systems, including dashboards, maps, and alert displays \cite{te2024smart}. In this study, UI refers to the dashboard layout, design elements, navigation components, and visual presentation of flood forecasting data that enable users to access and interpret information efficiently.
+
+\textbf{User Experience (UX).} Accessible and understandable presentation of flood information to stakeholders \cite{tolentino2022real}. In this study, UX refers to the measured usability, user satisfaction, and effectiveness of the system interface as evaluated through user feedback and response times during system interaction.
+
+\textbf{Real-Time Data.} Information that is delivered immediately after collection with minimal delay \cite{te2024smart}. In this study, real-time data refers to information that is continuously updated and processed by the system enabling current situational awareness for flood monitoring.
+
+\textbf{Disaster Preparedness.} Proactive measures, plans, and systems put in place before a flood event to minimize impacts \cite{aldhafiri2025leveraging,hammood2021systematic}. In this study, disaster preparedness refers to the actions taken by LGU officials and residents based on system forecasts, including evacuation planning, resource allocation, and positioning of emergency response teams.
+
+\textbf{System Integration.} Combining multiple data sources into a single dataset \cite{koutsovili2023early}. In this study, system integration refers to the technical implementation that connects AI/ML forecast models with data sources, dashboard interface, and alert notification mechanisms to create a cohesive flood monitoring and forecasting platform.
 
 \clearpage
 
-%-----------------------------
-% Chapter 2
-%-----------------------------
-\chapter{Methods}
+% ─────────────────────────────────────────────
+% CHAPTER 2 – METHODOLOGY
+% ─────────────────────────────────────────────
+\chapter{Methodology}
+
+This section presented the methods and techniques used and employed. This includes the data required, data gathering methods, population, research instruments as well as system architecture and design applied.
 
 \section{Research Design}
 
-\section{Population and Sampling}
+This study used a descriptive research design to describe the current flood monitoring practices and identify user requirements for a data-driven flood monitoring and warning system. A mixed-method approach was used to enable a comprehensive analysis and assessment of system performance, user perception and adoption factors. The usage of mixed methods allows the study to leverage both qualitative and quantitative offering a richer interpretation and validation.
 
-\section{Research Locale}
+Agile methodology would be used for software development allowing better collaboration, engagement and continuous refinement within the whole development process. Development sprints and prototype releases would be employed to gather feedback to allow problem identification and mitigation as early as the development phase, minimizing errors, bugs and unnecessary changes after deployment.
 
-\section{Research Instrument}
+\section{Respondents and Locale of the Study}
+
+The study will be conducted in Barangay Triangulo, Naga City, Camarines Sur, one of the identified flood-prone areas within the city. Due to its location, residents often experience flooding that disrupts daily activities and poses safety risks when heavy rains occur. Flooding in the area tends to escalate quickly, and many households depend on announcements from barangay officials or social media updates, which sometimes leads to delays in receiving important information. However, because the current system uses manual communication methods, real-time updates are sometimes slow or inconsistent.
+
+Given the challenges, Barangay Triangulo is an appropriate site for the development and testing of the proposed Data-driven Flood Monitoring and Early Warning System. This allows the researchers to understand the actual experiences of residents who encounter flooding regularly and to gather insights from local officials handling disaster operations. This helps ensure that the proposed system is practical, responsive, and aligned with the real needs of the community.
+
+\subsection*{Sample Size Determination}
+
+To ensure adequate representation of the target population, the sample size was computed using Yamane's Formula, which is appropriate when the total population is known but its variability is uncertain.
+
+\begin{equation}
+    n = \frac{N}{1 + Ne^{2}}
+\end{equation}
+
+\noindent where:
+\begin{itemize}
+    \item $n$ = required sample size
+    \item $N$ = total population of Barangay Triangulo
+    \item $e$ = margin of error (commonly set at 0.05)
+\end{itemize}
+
+\section{Data Gathering Procedure}
+
+To ensure a comprehensive collection of data, the researchers employed multiple data gathering methods. These methods were selected to obtain both quantitative and qualitative information relevant to the study, ensuring that the findings accurately reflect the current state and needs of the selected barangay.
+
+\textbf{Surveys.} Comprises a series of questions often with selections and made to gather information from the respondents. It would include open-ended questions to enable the respondents to answer freely.
+
+\textbf{Document Analysis.} A supporting method that aims to gain understanding about the current methods and systems being done within the selected barangay. This provides understanding about possible improvements that can be made.
+
+\section{Research Instruments}
+
+This study would employ different research instruments to gather data such as a Survey Questionnaire and Evaluation Tool. Each instrument was designed to address specific research objectives and ensure the validity and reliability of the data collected.
+
+\textbf{Survey Questionnaire.} A set of structured questions with provided selections that aims to understand the population as a whole.
+
+\textbf{Evaluation Tool.} Used to assess the system design and performance. It helps the researcher analyze feedback and data gathered that helps make the system usable and accessible.
 
 \section{Ethical Considerations}
 
+This study strictly adheres to ethical standards to ensure the protection of participants and the responsible handling of data. The following considerations were observed:
+
+\textbf{Informed Consent.} Participants involved were fully informed about the purpose, procedures, and scope of the study. They were provided with clear instructions and had the freedom to voluntarily participate or withdraw at any time without negative consequence. Written consent was obtained to ensure acknowledgment and agreement.
+
+\textbf{Data Privacy and Confidentiality.} All personal information and data collected from participants were treated with strict confidentiality. No identifiable data would be collected. Access to raw data were limited to the research team only.
+
+\textbf{Fair Use of Data.} Data collected were used solely for the purposes of this research. Any reporting of findings ensured that individual participants could not be identified.
+
+\textbf{Minimization of Risk.} Measures were taken to minimize any potential physical, psychological, or social risks to participants.
+
+\textbf{Compliance with Legal and Institutional Guidelines.} This study complied with relevant laws, institutional policies, and ethical standards concerning research involving human subjects, data collection, and environmental monitoring.
+
+\section{Statistical Tools}
+
+The study will make use of the following statistical tools to analyze and interpret the data collected from the research instruments.
+
+\textbf{Percentage Distribution.} Percentage was used to describe respondent characteristics and summarize categorical responses such as demographics, flood awareness, or technology adoption readiness. The result will be calculated using the formula:
+
+\begin{equation}
+    P = \frac{f}{N} \times 100
+\end{equation}
+
+\noindent where:
+\begin{itemize}
+    \item $P$ = Percentage
+    \item $f$ = Frequency of responses
+    \item $N$ = Total number of respondents
+\end{itemize}
+
+\textbf{Mean / Average.} The mean was used to determine the central tendency of responses where all values are equally weighted. It will be computed using the formula:
+
+\begin{equation}
+    \bar{X} = \frac{\sum x}{N}
+\end{equation}
+
+\noindent where:
+\begin{itemize}
+    \item $\bar{X}$ = Mean
+    \item $\sum x$ = Sum of all values
+    \item $N$ = Number of responses
+\end{itemize}
+
+\textbf{Weighted Mean.} Weighted mean was applied to interpret Likert-scale responses, recognizing that each response level carries different significance. The result would be determined using the following formula:
+
+\begin{equation}
+    WM = \frac{\sum (w \times X)}{\sum w}
+\end{equation}
+
+\noindent where:
+\begin{itemize}
+    \item $WM$ = Weighted Mean
+    \item $w$ = Assigned weight (e.g., 1--5)
+    \item $X$ = Frequency of responses
+\end{itemize}
+
 \section{Statistical Treatment of Data}
 
-\section{System Design and Architecture}
+The study will interpret the data gathered using a 5-point Likert scale. This was used to gather respondents' perception regarding the quality, functionality and user acceptance of the system.
 
-\section{Software Development Process}
+\textbf{Likert Scale.} In this study, a 5-point Likert scale would be used to measure the respondents' perceptions of the system in terms of quality, usability, reliability, information value, and acceptance with 1 being the lowest and 5 being the highest to determine the overall rating.
 
-\section{Validation and Testing Methods}
+\begin{table}[htbp]
+\centering
+\caption{Likert Scale for System Quality, Information Quality and Usability}
+\label{tab:likert1}
+\begin{tabularx}{\textwidth}{|c|X|X|X|}
+\hline
+\textbf{Range} & \textbf{Verbal Interpretation (System Quality)} & \textbf{Verbal Interpretation (Information Quality)} & \textbf{Verbal Interpretation (Usability)} \\
+\hline
+4.21 -- 5.00 & Excellent     & Very High  & Very Highly Usable \\
+\hline
+3.41 -- 4.20 & Good          & High       & Highly Usable      \\
+\hline
+2.61 -- 3.40 & Neutral       & Moderate   & Moderately Usable  \\
+\hline
+1.81 -- 2.60 & Poor          & Low        & Low Usability      \\
+\hline
+1.00 -- 1.80 & Very Poor     & Very Low   & Very Low Usability \\
+\hline
+\end{tabularx}
+\end{table}
+
+This outlines the Likert scale ranges and their corresponding interpretations for evaluating System Quality, Information Quality, and Usability, where higher scores indicate more favorable perceptions of system performance, information accuracy, and overall user usability. This scale enables interpretation of user responses by categorizing results into levels that reflect the degree of effectiveness, reliability, and usability of the system.
+
+\begin{table}[htbp]
+\centering
+\caption{Likert Scale for Reliability, Functionality and User Acceptance}
+\label{tab:likert2}
+\begin{tabularx}{\textwidth}{|c|X|X|X|}
+\hline
+\textbf{Range} & \textbf{Verbal Interpretation (Reliability)} & \textbf{Verbal Interpretation (Functionality)} & \textbf{Verbal Interpretation (User Acceptance)} \\
+\hline
+4.21 -- 5.00 & Very Highly Reliable  & Very Functional       & Very Highly Acceptable \\
+\hline
+3.41 -- 4.20 & Highly Reliable       & Functional            & Highly Acceptable      \\
+\hline
+2.61 -- 3.40 & Moderately Reliable   & Moderately Functional & Moderately Acceptable  \\
+\hline
+1.81 -- 2.60 & Low Reliability       & Less Functional       & Low Acceptable         \\
+\hline
+1.00 -- 1.80 & Very Low Reliability  & Not Functional        & Very Low Acceptable    \\
+\hline
+\end{tabularx}
+\end{table}
+
+Table~\ref{tab:likert2} presents the Likert scale ranges for assessing Reliability, Functionality, and User Acceptance, where higher scores indicate more favorable evaluations. This scale categorizes user responses to measure system effectiveness, consistency, acceptability, and user adoption willingness.
+
+\section{Systems Design}
+
+This section highlights various designs for the proposed data-driven flood monitoring and forecasting system. This includes system architecture, use case diagram and system flow.
+
+\textbf{Use Case.} The use case design of the proposed FMFS shows the interaction between the system, users and external data providers. This highlights how each actor (residents, barangay DRRMO, PAGASA and third-party entities) uses the system and helps increase clarity on how the system works.
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.90\textwidth,height=0.90\textheight, keepaspectratio]{fig3_use_case_diagram}
+    \caption{Use Case Diagram}
+    \label{fig:use_case}
+\end{figure}
+\clearpage
+\textbf{System Flow.} The Business Process Model and Notation (BPMN) for the Proposed Data-driven FMFS is divided into five distinct pools representing the system's modular architecture: Data Providers, Data Ingestion, AI/ML Forecasting, Alert Engine, and the Dashboard interface.
+
+The process initiates in the Data Providers pool, where external weather and hydrological data are released. The Data Ingestion Module operates on an automated timer event, triggering a fetch request to the PAGASA API every five minutes. Upon retrieval, the system enters a validation loop; a decision gateway checks if the data is complete. If the data is incomplete, the system logs the error and requests missing data. If the data is valid, it is stored in the database and forwards the clean data. The AI/ML Forecasting Engine receives this clean dataset to execute the prediction model. The engine processes the variables to generate a specific Flood Risk Level, which serves as the input for the alerting logic. The Alert Engine acts as the central decision node.
+
+Upon receiving the risk level, an exclusive gateway routes the process into three distinct workflows based on severity---High Risk, where the system triggers emergency alerts and sends immediate push notifications to residents; Moderate Risk, where the system sends an early warning advisory; and Low Risk, where the system only updates the internal system dashboard and logs the update. The process concludes in the Dashboard pool where the status update and forecast data would be reflected and show the relevant advisories to the end-users.
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.90\textwidth,height=0.90\textheight, keepaspectratio]{fig4_bpmn_diagram}
+    \caption{Business Process Model Notation for Proposed Data-Driven Flood Monitoring and Forecasting System}
+    \label{fig:bpmn}
+\end{figure}
+\clearpage
+
+\subsection*{System Architecture}
+
+The overall system architecture is designed to support a data-driven flood monitoring and early-warning platform that integrates external hydrological data sources, an AI/ML prediction engine, and end-users such as residents and Barangay DRRMO personnel. The diagram illustrates the flow of data and information among the major components of the system.
+
+Hydrological and meteorological data are obtained from PAGASA and other third-party data providers, which serve as the primary external data sources. These datasets, which may include rainfall intensity, river gauge levels, soil moisture, and weather forecasts, are transmitted to the AI/ML Engine for processing. The AI/ML Engine performs predictive analytics based on the incoming hydrological data. It applies trained models to generate flood predictions, severity estimates, and early-warning insights. The outputs of the AI/ML engine are then forwarded to the Server, which acts as the central system controller. The Server receives the predicted flood events or system update and produces visual flood forecasts, which are made accessible to Barangay DRRMO users through their desktop or laptop interfaces. These users can view system-generated alerts, monitor predictions, and manage local response actions through the dashboard. When the system detects potentially hazardous conditions, the server sends emergency warnings directly to residents through their mobile devices. This enables rapid and proactive distribution of alerts to the community.
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.90\textwidth,height=0.90\textheight, keepaspectratio]{fig5_system_architecture}
+    \caption{System Architecture of Proposed Data-driven Flood Monitoring and Forecasting System}
+    \label{fig:architecture}
+\end{figure}
+\clearpage
+\subsection*{Project Timeline}
+
+The project execution is structured over a twelve-month timeline, segmented into six key phases: Initiation, Design, Development, Testing, Implementation, and Maintenance. The project commences in Month 1 with Project Initiation, focusing on Requirements Gathering and Technical Research to establish the system's full scope and objectives. These activities extend into Month 2, allowing the team to thoroughly document user needs and evaluate relevant technologies before formal design work begins. The Design phase runs concurrently from Month 2 to Month 3, during which the team defines the System Architecture, finalizes the Database Design, and creates UI/UX Wireframes to guide subsequent development efforts.
+
+Development spans Months 3 through 8, beginning with the Data Integration Module and Data Cleaning and Storage mechanisms, followed by the Backend API Setup and initial Dashboard Development in Months 4 through 6. The latter half of Development—Months 6 through 8—focuses on the integration of the AI/ML engine, Alert Rule Setup, Alert System implementation, and full System Integration. From Months 8 to 10, the Testing phase is conducted, covering Internal Testing, User Acceptance Testing, and Optimization and Bug Fixing to ensure system reliability and usability before launch. Months 10 and 11 are dedicated to Implementation, during which the system is formally deployed and made operational for end-users. The final phase, Maintenance, spans Months 11 and 12 and involves documentation, capture of lessons learned, and ongoing system monitoring to support long-term quality assurance and continuous improvement.
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.90\textwidth,height=0.90\textheight, keepaspectratio]{fig6_project_timeline}
+    \caption{Project Timeline for Proposed Data-driven FMFS}
+    \label{fig:timeline}
+\end{figure}
 
 \clearpage
 
-%-----------------------------
-% Chapter 3
-%-----------------------------
+% ─────────────────────────────────────────────
+% CHAPTER 3 – RESULTS AND DISCUSSIONS
+% (placeholder – fill upon completion)
+% ─────────────────────────────────────────────
 \chapter{Results and Discussions}
 
 \section{Results}
@@ -345,12 +474,11 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 
 \section{Recommendations}
 
-%-----------------------------
-% References
-%-----------------------------
-
 \clearpage
 
+% ─────────────────────────────────────────────
+% REFERENCES
+% ─────────────────────────────────────────────
 \printbibliography
 
 \clearpage
