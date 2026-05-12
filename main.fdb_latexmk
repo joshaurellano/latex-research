@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber main"] 1778216007.24753 "main.bcf" "main.bbl" "main" 1778219142.663 0
-  "main.bcf" 1778219142 122593 3b7a6c927cea59faeb2dba4b3d9f3480 "pdflatex"
+["biber main"] 1778468400.87014 "main.bcf" "main.bbl" "main" 1778550565.59782 0
+  "main.bcf" 1778550564 122593 3b7a6c927cea59faeb2dba4b3d9f3480 "pdflatex"
   "references.bib" 1778216005 36909 958c347a44def251a81eebdd9dbde940 ""
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1778219135.37016 "c:/Users/janth/Desktop/Playground/latex-research/main.tex" "main.pdf" "main" 1778219142.66458 0
+["pdflatex"] 1778550554.64637 "c:/Users/janth/Desktop/Playground/latex-research/main.tex" "main.pdf" "main" 1778550565.60145 0
   "C:/Program Files/MiKTeX/fonts/tfm/jknappen/ec/tcrm1200.tfm" 993062508 1444 95ffe0f19b974d50849790c8225c7ef7 ""
   "C:/Program Files/MiKTeX/fonts/tfm/public/cm/cmbx12.tfm" 1136765053 1324 c910af8c371558dc20f2d7822f66fe64 ""
   "C:/Program Files/MiKTeX/fonts/tfm/public/cm/cmcsc10.tfm" 1136765053 1300 63a6111ee6274895728663cf4b4e7e81 ""
@@ -71,6 +71,7 @@
   "C:/Users/janth/AppData/Roaming/MiKTeX/tex/generic/ltxcmds/ltxcmds.sty" 1702206890 17865 1a9bd36b4f98178fa551aca822290953 ""
   "C:/Users/janth/AppData/Roaming/MiKTeX/tex/latex/booktabs/booktabs.sty" 1579093635 6253 f1cb470c9199e7110a27851508ed7a5c ""
   "C:/Users/janth/AppData/Roaming/MiKTeX/tex/latex/fancyhdr/fancyhdr.sty" 1740138435 31715 19e60610b63819fe670dfa1cd84a4e94 ""
+  "C:/Users/janth/AppData/Roaming/MiKTeX/tex/latex/float/float.sty" 1469023953 6916 16d2656a1984957e674b149555f1ea1d ""
   "C:/Users/janth/AppData/Roaming/MiKTeX/tex/latex/geometry/geometry.cfg" 1773583286 1083 f69f5eb2d8e249286c59dd1340122e59 ""
   "C:/Users/janth/AppData/Roaming/MiKTeX/tex/latex/geometry/geometry.sty" 1773583286 41904 7711079366884e0d15963c9d40019853 ""
   "C:/Users/janth/AppData/Roaming/MiKTeX/tex/latex/kvoptions/kvoptions.sty" 1656236481 22555 6d8e155cfef6d82c3d5c742fea7c992e ""
@@ -83,21 +84,21 @@
   "C:/Users/janth/AppData/Roaming/MiKTeX/tex/latex/microtype/mt-cmr.cfg" 1772370317 22906 2122f73c0e7dc828f24240c2422dfe25 ""
   "C:/Users/janth/AppData/Roaming/MiKTeX/tex/latex/titlesec/titlesec.sty" 1736608268 48766 87a17a4ef312a39cd43896e34a679a56 ""
   "C:/Users/janth/AppData/Roaming/MiKTeX/tex/latex/tocloft/tocloft.sty" 1578908763 37263 3e78d14f0f4b1a30560fea5e04de805d ""
-  "c:/Users/janth/Desktop/Playground/latex-research/main.tex" 1778219133 52479 3c2e83b5281138f28e3fb877afba9db5 ""
+  "c:/Users/janth/Desktop/Playground/latex-research/main.tex" 1778550552 52367 802485ac77e17d6213738e5eda4e15a2 ""
   "images/fig1_theoretical_framework.png" 1778213878 109469 a5a234296d776e7321ae455133c937bb ""
-  "images/fig2_conceptual_framework.png" 1778213878 42586 9652dab976126bb2a6a49dc69c330a67 ""
+  "images/fig2_conceptual_framework.png" 1778548087 33309 39ee0c3d2b1186025e3e8cc86e11ff6a ""
   "images/fig3_use_case_diagram.png" 1778214915 48509 7164d78557d38f1ebcf1f3d381a7a3fd ""
   "images/fig4_bpmn_diagram.png" 1778214922 64880 827b938793d4dde795214f2e1f4af57e ""
   "images/fig5_system_architecture.png" 1778214930 79488 d903b38348f971a83baeb2f32b7ea1c5 ""
   "images/fig6_project_timeline.png" 1778218912 36609 d8b3ca52b9767f501b3b0436b8e69c20 ""
-  "main.aux" 1778219142 28281 3f8972e27499930b8c88534a61ed5c87 "pdflatex"
-  "main.bbl" 1778216016 177783 078c496ad9d6a64cc258b8da95d6a19a "biber main"
-  "main.lof" 1778219142 845 86ca056a0cfe8827ed3cf561a5931d4e "pdflatex"
-  "main.lot" 1778219142 317 a3ff726fbfefc68bbd778116593a3cb0 "pdflatex"
-  "main.run.xml" 1778219142 2305 52095dfad395b381e9a32937e764a41c "pdflatex"
-  "main.tex" 1778219133 52479 3c2e83b5281138f28e3fb877afba9db5 ""
-  "main.toc" 1778219142 2081 2ba2e9ad9c9adfef5cca3cb1bf203467 "pdflatex"
-  "research.cls" 1778213878 2409 dc625d53b31280e87ff8bd4be47d21ee ""
+  "main.aux" 1778550564 28439 8ce440b334f210e60fd3650ad40fea31 "pdflatex"
+  "main.bbl" 1778468423 177783 078c496ad9d6a64cc258b8da95d6a19a "biber main"
+  "main.lof" 1778550564 1153 0e0621b05567799d9cb62f7af03337cc "pdflatex"
+  "main.lot" 1778550564 317 37c7f603e75b7dc7c5d19743b9d24269 "pdflatex"
+  "main.run.xml" 1778550564 2305 52095dfad395b381e9a32937e764a41c "pdflatex"
+  "main.tex" 1778550552 52367 802485ac77e17d6213738e5eda4e15a2 ""
+  "main.toc" 1778550564 2081 ce274834010da7e4b5a4d0930e88d1aa "pdflatex"
+  "research.cls" 1778469278 2839 2db1302ae1f64c88576fc55421774161 ""
   (generated)
   "main.aux"
   "main.bcf"

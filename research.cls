@@ -6,7 +6,6 @@
 \LoadClass[12pt]{report}
 
 
-
 % Page size
 \usepackage{geometry}
 \geometry{
@@ -32,8 +31,19 @@
 
 % Chapter formatting (remove 'Chapter' word)
 \usepackage{titlesec}
-\titleformat{\chapter}[hang]{\Huge\bfseries}{\thechapter}{1em}{}
+\titleformat{\chapter}[hang]{\large\bfseries}{\thechapter}{1em}{}
 
+\titleformat{\section}
+{\large\bfseries}
+{\thesection}
+{1em}
+{}
+
+\titleformat{\subsection}
+{\normalsize\bfseries}
+{\thesubsection}
+{1em}
+{}
 % TOC formatting
 \usepackage{tocloft}
 \setlength{\cftbeforechapskip}{1em}
@@ -86,11 +96,19 @@
 
 % Table of Contents Reduce Spaces
 \usepackage{tocloft}
+\renewcommand{\cfttoctitlefont}{\large\bfseries}
+\renewcommand{\cftaftertoctitle}{\hfill}
 % Space before "Contents" title
 \setlength{\cftbeforetoctitleskip}{0pt}
 % Space after "Contents" title
 \setlength{\cftaftertoctitleskip}{10pt}
 
+
+\renewcommand{\cftloftitlefont}{\large\bfseries}
+\renewcommand{\cftlottitlefont}{\large\bfseries}
+
+\renewcommand{\cftafterloftitle}{\hfill}
+\renewcommand{\cftafterlottitle}{\hfill}
 
 
 % List of Figures Reduce Spaces

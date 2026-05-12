@@ -7,6 +7,7 @@
 \usepackage{array}
 \usepackage{tabularx}
 \usepackage{microtype}
+\usepackage{float}
 \setlength{\emergencystretch}{3em}
 
 % Title Page Info
@@ -28,7 +29,7 @@
 \thispagestyle{empty}
 \begin{center}
   \vspace*{1in}
-  {\Huge\bfseries Data-Driven Approach to Flood Control Monitoring and Forecasting \par}
+  {\Large\bfseries Data-Driven Approach to Flood Control Monitoring and Forecasting \par}
   \vspace{1in}
   A Capstone Project\\
   Presented to the Faculty of the\\
@@ -139,27 +140,25 @@ One supporting theory is the Unified Theory of Acceptance and Use of Technology 
 
 Another supporting theory is the Diffusion of Innovation (DOI) Theory, popularized by Rogers, which focuses on how innovation is accepted by users through five key factors: complexity, observability, relative advantage, trialability, and compatibility. DOI justifies the need for innovation in barangay-scale FMFS by assessing how well the proposed system addresses existing gaps and how users perceive it as an improvement over current solutions.
 
-\begin{figure}[htbp]
+\begin{figure}[H]
     \centering
-    \includegraphics[width=0.85\textwidth]{fig1_theoretical_framework}
-    \caption{Theoretical Framework}
-    \label{fig:theoretical_framework}
+\includegraphics[
+    height=0.5\textheight,
+    keepaspectratio
+]{fig1_theoretical_framework}
+ \caption{The proposed framework integrates three Information Systems (IS) theories---DeLone and McLean IS Success Model (D\&M), the Unified Theory of Acceptance and Use of Technology (UTAUT), and the Diffusion of Innovation (DOI) theory---to evaluate the success, acceptance, and adoption of the flood monitoring and forecasting system.
+}
 \end{figure}
-
-The proposed framework integrates three Information Systems (IS) theories---DeLone and McLean IS Success Model (D\&M), the Unified Theory of Acceptance and Use of Technology (UTAUT), and the Diffusion of Innovation (DOI) theory---to evaluate the success, acceptance, and adoption of the flood monitoring and forecasting system.
 
 \section{Conceptual Framework}
 
 This study implemented the enhanced system paradigm (Input-Process-Output-Outcome). The input will come from data gathered from users and experts on what system requirements are needed, including quality indicators in developing the data-driven approach in flood monitoring and forecasting. These will serve as the guide in designing the system prototype which integrates AI and machine learning. A series of functional testing will be conducted to ensure that the prototype adheres to the user's requirements. The final output of the study is the prototype that will provide the data-driven system through the AI/ML module integrated. This is expected to enhance the decision-making activities of the barangay officials to ensure the safety of the community during flood season.
 
-\begin{figure}[htbp]
-    \centering
-    \includegraphics[width=\textwidth, height=0.85\textheight]{fig2_conceptual_framework}
+\begin{figure}[H]
+    \includegraphics[width=\textwidth, height=0.5\textheight]{fig2_conceptual_framework}
     \caption{Conceptual Framework: System Paradigm model with feedback loop of the Data-driven Approach in Flood Monitoring and Forecasting System}
     \label{fig:conceptual_framework}
 \end{figure}
-
-\clearpage
 
 \section{Statement of the Problem}
 
@@ -404,13 +403,15 @@ This section highlights various designs for the proposed data-driven flood monit
 
 \textbf{Use Case.} The use case design of the proposed FMFS shows the interaction between the system, users and external data providers. This highlights how each actor (residents, barangay DRRMO, PAGASA and third-party entities) uses the system and helps increase clarity on how the system works.
 
-\begin{figure}[htbp]
+\begin{figure}[H]
     \centering
-    \includegraphics[width=0.90\textwidth,height=0.90\textheight, keepaspectratio]{fig3_use_case_diagram}
-    \caption{Use Case Diagram}
-    \label{fig:use_case}
+\includegraphics[
+    height=0.4\textheight,
+    keepaspectratio
+]{fig3_use_case_diagram}
+ \caption{Use Case Diagram
+}
 \end{figure}
-\clearpage
 \textbf{System Flow.} The Business Process Model and Notation (BPMN) for the Proposed Data-driven FMFS is divided into five distinct pools representing the system's modular architecture: Data Providers, Data Ingestion, AI/ML Forecasting, Alert Engine, and the Dashboard interface.
 
 The process initiates in the Data Providers pool, where external weather and hydrological data are released. The Data Ingestion Module operates on an automated timer event, triggering a fetch request to the PAGASA API every five minutes. Upon retrieval, the system enters a validation loop; a decision gateway checks if the data is complete. If the data is incomplete, the system logs the error and requests missing data. If the data is valid, it is stored in the database and forwards the clean data. The AI/ML Forecasting Engine receives this clean dataset to execute the prediction model. The engine processes the variables to generate a specific Flood Risk Level, which serves as the input for the alerting logic. The Alert Engine acts as the central decision node.
@@ -431,9 +432,9 @@ The overall system architecture is designed to support a data-driven flood monit
 
 Hydrological and meteorological data are obtained from PAGASA and other third-party data providers, which serve as the primary external data sources. These datasets, which may include rainfall intensity, river gauge levels, soil moisture, and weather forecasts, are transmitted to the AI/ML Engine for processing. The AI/ML Engine performs predictive analytics based on the incoming hydrological data. It applies trained models to generate flood predictions, severity estimates, and early-warning insights. The outputs of the AI/ML engine are then forwarded to the Server, which acts as the central system controller. The Server receives the predicted flood events or system update and produces visual flood forecasts, which are made accessible to Barangay DRRMO users through their desktop or laptop interfaces. These users can view system-generated alerts, monitor predictions, and manage local response actions through the dashboard. When the system detects potentially hazardous conditions, the server sends emergency warnings directly to residents through their mobile devices. This enables rapid and proactive distribution of alerts to the community.
 
-\begin{figure}[htbp]
+\begin{figure}[H]
     \centering
-    \includegraphics[width=0.90\textwidth,height=0.90\textheight, keepaspectratio]{fig5_system_architecture}
+    \includegraphics[width=0.90\textwidth,height=0.50\textheight, keepaspectratio]{fig5_system_architecture}
     \caption{System Architecture of Proposed Data-driven Flood Monitoring and Forecasting System}
     \label{fig:architecture}
 \end{figure}

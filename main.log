@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.26)  8 MAY 2026 13:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.26)  12 MAY 2026 09:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -457,26 +457,33 @@ Package microtype Info: Loading configuration file microtype.cfg.
 File: microtype.cfg 2026/03/01 v3.2d microtype main configuration file (RS)
 )
 LaTeX Info: Redefining \microtypesetup on input line 3065.
+) (C:\Users\janth\AppData\Roaming\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count424
+\float@exts=\toks25
+\float@box=\box57
+\@float@everytoks=\toks26
+\@floatcapt=\box58
 )
-\@quotelevel=\count424
-\@quotereset=\count425
+\@quotelevel=\count425
+\@quotereset=\count426
  (main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -525,34 +532,34 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (main.bbl)
-Package biblatex Info: Reference section=0 on input line 23.
-Package biblatex Info: Reference segment=0 on input line 23.
+Package biblatex Info: Reference section=0 on input line 24.
+Package biblatex Info: Reference segment=0 on input line 24.
  (C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count426
+\scratchcounter=\count427
 \scratchdimen=\dimen185
-\scratchbox=\box57
-\nofMPsegments=\count427
-\nofMParguments=\count428
-\everyMPshowfont=\toks25
-\MPscratchCnt=\count429
+\scratchbox=\box59
+\nofMPsegments=\count428
+\nofMParguments=\count429
+\everyMPshowfont=\toks27
+\MPscratchCnt=\count430
 \MPscratchDim=\dimen186
-\MPnumerator=\count430
-\makeMPintoPDFobject=\count431
-\everyMPtoPDFconversion=\toks26
+\MPnumerator=\count431
+\makeMPintoPDFobject=\count432
+\everyMPtoPDFconversion=\toks28
 ) (C:\Program Files\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (C:\Program Files\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-LaTeX Info: Redefining \microtypecontext on input line 23.
-Package microtype Info: Applying patch `item' on input line 23.
-Package microtype Info: Applying patch `toc' on input line 23.
-Package microtype Info: Applying patch `eqnum' on input line 23.
-Package microtype Info: Applying patch `footnote' on input line 23.
-Package microtype Info: Applying patch `verbatim' on input line 23.
-LaTeX Info: Redefining \microtypesetup on input line 23.
+LaTeX Info: Redefining \microtypecontext on input line 24.
+Package microtype Info: Applying patch `item' on input line 24.
+Package microtype Info: Applying patch `toc' on input line 24.
+Package microtype Info: Applying patch `eqnum' on input line 24.
+Package microtype Info: Applying patch `footnote' on input line 24.
+Package microtype Info: Applying patch `verbatim' on input line 24.
+LaTeX Info: Redefining \microtypesetup on input line 24.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -601,78 +608,74 @@ Chapter 1.
 <images/fig1_theoretical_framework.png, id=32, 623.32875pt x 930.47626pt>
 File: images/fig1_theoretical_framework.png Graphic file (type png)
 <use images/fig1_theoretical_framework.png>
-Package pdftex.def Info: images/fig1_theoretical_framework.png  used on input line 144.
-(pdftex.def)             Requested size: 368.57965pt x 550.21146pt.
- [10] [11 <./images/fig1_theoretical_framework.png>]
-<images/fig2_conceptual_framework.png, id=39, 794.97pt x 535.2497pt>
+Package pdftex.def Info: images/fig1_theoretical_framework.png  used on input line 148.
+(pdftex.def)             Requested size: 217.85446pt x 325.215pt.
+ [10]
+<images/fig2_conceptual_framework.png, id=36, 517.935pt x 377.41pt>
 File: images/fig2_conceptual_framework.png Graphic file (type png)
 <use images/fig2_conceptual_framework.png>
-Package pdftex.def Info: images/fig2_conceptual_framework.png  used on input line 157.
-(pdftex.def)             Requested size: 433.63217pt x 552.93045pt.
- [12] [13 <./images/fig2_conceptual_framework.png>] [14
-
-] [15] [16] [17]
+Package pdftex.def Info: images/fig2_conceptual_framework.png  used on input line 158.
+(pdftex.def)             Requested size: 433.63986pt x 325.21701pt.
+ [11 <./images/fig1_theoretical_framework.png>] [12 <./images/fig2_conceptual_framework.png>] [13] [14] [15] [16]
 Chapter 2.
-[18
+[17
 
 
-] [19] [20]
-Underfull \hbox (badness 10000) in paragraph at lines 396--396
+] [18] [19]
+Underfull \hbox (badness 10000) in paragraph at lines 395--395
 \OT1/cmr/bx/n/12 (+20) tion (Func-tion-al-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 396--396
+Underfull \hbox (badness 10000) in paragraph at lines 395--395
 []|\OT1/cmr/m/n/12 (+20) Moderately Func-
  []
 
 
-Underfull \hbox (badness 5756) in paragraph at lines 396--396
+Underfull \hbox (badness 5756) in paragraph at lines 395--395
 []|\OT1/cmr/m/n/12 (+20) Moderately Ac-cept-
  []
 
-[21]
-<images/fig3_use_case_diagram.png, id=77, 433.62pt x 591.71063pt>
+[20]
+<images/fig3_use_case_diagram.png, id=76, 433.62pt x 591.71063pt>
 File: images/fig3_use_case_diagram.png Graphic file (type png)
 <use images/fig3_use_case_diagram.png>
-Package pdftex.def Info: images/fig3_use_case_diagram.png  used on input line 409.
-(pdftex.def)             Requested size: 390.27425pt x 532.56174pt.
- [22] [23 <./images/fig3_use_case_diagram.png>]
-<images/fig4_bpmn_diagram.png, id=85, 363.60844pt x 636.87938pt>
+Package pdftex.def Info: images/fig3_use_case_diagram.png  used on input line 411.
+(pdftex.def)             Requested size: 190.66106pt x 260.16803pt.
+ [21 <./images/fig3_use_case_diagram.png>]
+<images/fig4_bpmn_diagram.png, id=81, 363.60844pt x 636.87938pt>
 File: images/fig4_bpmn_diagram.png Graphic file (type png)
 <use images/fig4_bpmn_diagram.png>
-Package pdftex.def Info: images/fig4_bpmn_diagram.png  used on input line 422.
+Package pdftex.def Info: images/fig4_bpmn_diagram.png  used on input line 423.
 (pdftex.def)             Requested size: 334.20757pt x 585.38222pt.
- [24
-
-] [25 <./images/fig4_bpmn_diagram.png>]
-<images/fig5_system_architecture.png, id=95, 419.31656pt x 569.12625pt>
+ [22] [23 <./images/fig4_bpmn_diagram.png>]
+<images/fig5_system_architecture.png, id=89, 419.31656pt x 569.12625pt>
 File: images/fig5_system_architecture.png Graphic file (type png)
 <use images/fig5_system_architecture.png>
-Package pdftex.def Info: images/fig5_system_architecture.png  used on input line 436.
-(pdftex.def)             Requested size: 390.25467pt x 529.68141pt.
- [26
+Package pdftex.def Info: images/fig5_system_architecture.png  used on input line 437.
+(pdftex.def)             Requested size: 239.62074pt x 325.23033pt.
+ [24
 
-] [27 <./images/fig5_system_architecture.png>]
-<images/fig6_project_timeline.png, id=103, 377.15906pt x 457.71pt>
+] [25 <./images/fig5_system_architecture.png>]
+<images/fig6_project_timeline.png, id=98, 377.15906pt x 457.71pt>
 File: images/fig6_project_timeline.png Graphic file (type png)
 <use images/fig6_project_timeline.png>
-Package pdftex.def Info: images/fig6_project_timeline.png  used on input line 448.
+Package pdftex.def Info: images/fig6_project_timeline.png  used on input line 449.
 (pdftex.def)             Requested size: 390.25645pt x 473.60466pt.
- [28
+ [26
 
-] [29 <./images/fig6_project_timeline.png>]
+] [27 <./images/fig6_project_timeline.png>]
 Chapter 3.
-[30
+[28
 
 
-] [31
+] [29
 
 
-] [32] [33] [34] [35] [36] [37] [38] [39
+] [30] [31] [32] [33] [34] [35] [36
 
 
-] [40
+] [37
 
 ] (main.aux)
  ***********
@@ -684,17 +687,17 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 13880 strings out of 467867
- 264316 string characters out of 5428401
- 1130429 words of memory out of 5000000
- 42437 multiletter control sequences out of 15000+600000
- 640868 words of font info for 167 fonts, out of 8000000 for 9000
+ 13939 strings out of 467867
+ 265245 string characters out of 5428401
+ 1131740 words of memory out of 5000000
+ 42500 multiletter control sequences out of 15000+600000
+ 640042 words of font info for 161 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  78i,12n,80p,1387b,1317s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\janth\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (40 pages, 526211 bytes).
+Output written on main.pdf (37 pages, 504022 bytes).
 PDF statistics:
- 193 PDF objects out of 1000 (max. 8388607)
+ 185 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 27167 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 23071 words of extra memory for PDF output out of 24883 (max. 10000000)
 

@@ -107,6 +107,8 @@ INPUT C:\Users\janth\AppData\Roaming\MiKTeX\tex\latex\microtype\microtype-pdftex
 INPUT C:\Users\janth\AppData\Roaming\MiKTeX\tex\latex\microtype\microtype.cfg
 INPUT C:\Users\janth\AppData\Roaming\MiKTeX\tex\latex\microtype\microtype.cfg
 INPUT C:\Users\janth\AppData\Roaming\MiKTeX\tex\latex\microtype\microtype.cfg
+INPUT C:\Users\janth\AppData\Roaming\MiKTeX\tex\latex\float\float.sty
+INPUT C:\Users\janth\AppData\Roaming\MiKTeX\tex\latex\float\float.sty
 INPUT .\main.aux
 INPUT .\main.aux
 INPUT main.aux
@@ -135,6 +137,8 @@ INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr17.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 OUTPUT main.pdf
 INPUT C:\Users\janth\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT .\main.toc
 INPUT .\main.toc
 INPUT main.toc
@@ -156,10 +160,6 @@ INPUT .\main.lot
 INPUT .\main.lot
 INPUT main.lot
 OUTPUT main.lot
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr17.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT .\images\fig1_theoretical_framework.png
 INPUT .\images\fig1_theoretical_framework.png
 INPUT .\images\fig1_theoretical_framework.png
