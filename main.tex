@@ -355,7 +355,7 @@ The study will interpret the data gathered using a 5-point Likert scale. This wa
 \centering
 \caption{Likert Scale for System Quality, Information Quality and Usability}
 \label{tab:likert1}
-\begin{tabularx}{\textwidth}{|c|X|X|X|}
+\begin{tabularx}{\textwidth}{c|X|X|X}
 \hline
 \textbf{Range} & \textbf{Verbal Interpretation (System Quality)} & \textbf{Verbal Interpretation (Information Quality)} & \textbf{Verbal Interpretation (Usability)} \\
 \hline
@@ -378,7 +378,7 @@ This outlines the Likert scale ranges and their corresponding interpretations fo
 \centering
 \caption{Likert Scale for Reliability, Functionality and User Acceptance}
 \label{tab:likert2}
-\begin{tabularx}{\textwidth}{|c|X|X|X|}
+\begin{tabularx}{\textwidth}{c|X|X|X}
 \hline
 \textbf{Range} & \textbf{Verbal Interpretation (Reliability)} & \textbf{Verbal Interpretation (Functionality)} & \textbf{Verbal Interpretation (User Acceptance)} \\
 \hline
@@ -412,6 +412,41 @@ This section highlights various designs for the proposed data-driven flood monit
  \caption{Use Case Diagram
 }
 \end{figure}
+
+\textbf{Data Flow Diagram.} This illustrates the Data Flow Diagram (DFD) which illustrates how data flows within the system.
+
+The first figure is the Level 0 of the proposed system. This provides a high-level overview of the system and interaction with all external entities. The system revolves around four external entities — the Admin, Data Sources, Barangay DRRMO/Officials, and Residents — each playing a distinct role throughout the system.
+The admin handles the registration for barangay officials and the officials handles the residents registration as well. The system uses data sources which is essential for flood monitoring and forecasting. All forecast reports are sent to barangay officials and residents whereas the officials are able to send emergency alerts to the residents.
+Processed information are stored in data storage for retrieval and reference.
+
+Level 1 of DFD breaks down the system through five processes: user registration, data collection and processing, forecast generation, alert dissemination, and report generation.  Processed data is used to generate forecasts which are then distributed to residents and DRRMO officials, while real-time emergency alerts are issued upon detection of critical flood conditions. All alerts and system activities are compiled into historical reports, supporting post-event analysis and long-term disaster preparedness planning.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.90\textwidth,height=0.50\textheight, keepaspectratio]{context diagram}
+    \caption{Proposed System Context Diagram}
+    \label{fig:context diagram}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.90\textwidth,height=0.50\textheight, keepaspectratio]{lvl1_diagram}
+    \caption{Proposed System Level 1 Diagram}
+    \label{fig:level1 diagram}
+\end{figure}
+
+\textbf{Entity-Relationship Diagram (ERD)} The ERD illustrate the entities that are used within the system. This also shows their connection and individual attributes. 
+
+This serves as blueprint for the design of database during system development which ensures that data relationships are well defined and aligns with functional requirements of the system.
+It also serves as a communication tool betwween technical and non-technical team members, making the system's structure easier to understand and dicuss.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.90\textwidth,height=0.50\textheight, keepaspectratio]{erd}
+    \caption{Entity Relationship Diagram}
+    \label{fig:Entity Relationship Diagram}
+\end{figure}
+
 \textbf{System Flow.} The Business Process Model and Notation (BPMN) for the Proposed Data-driven FMFS is divided into five distinct pools representing the system's modular architecture: Data Providers, Data Ingestion, AI/ML Forecasting, Alert Engine, and the Dashboard interface.
 
 The process initiates in the Data Providers pool, where external weather and hydrological data are released. The Data Ingestion Module operates on an automated timer event, triggering a fetch request to the PAGASA API every five minutes. Upon retrieval, the system enters a validation loop; a decision gateway checks if the data is complete. If the data is incomplete, the system logs the error and requests missing data. If the data is valid, it is stored in the database and forwards the clean data. The AI/ML Forecasting Engine receives this clean dataset to execute the prediction model. The engine processes the variables to generate a specific Flood Risk Level, which serves as the input for the alerting logic. The Alert Engine acts as the central decision node.
@@ -438,7 +473,6 @@ Hydrological and meteorological data are obtained from PAGASA and other third-pa
     \caption{System Architecture of Proposed Data-driven Flood Monitoring and Forecasting System}
     \label{fig:architecture}
 \end{figure}
-\clearpage
 \subsection*{Project Timeline}
 
 The project execution is structured over a twelve-month timeline, segmented into six key phases: Initiation, Design, Development, Testing, Implementation, and Maintenance. The project commences in Month 1 with Project Initiation, focusing on Requirements Gathering and Technical Research to establish the system's full scope and objectives. These activities extend into Month 2, allowing the team to thoroughly document user needs and evaluate relevant technologies before formal design work begins. The Design phase runs concurrently from Month 2 to Month 3, during which the team defines the System Architecture, finalizes the Database Design, and creates UI/UX Wireframes to guide subsequent development efforts.
