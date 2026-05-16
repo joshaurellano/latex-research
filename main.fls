@@ -107,6 +107,10 @@ INPUT /usr/share/texmf-dist/tex/latex/microtype/microtype.cfg
 INPUT /usr/share/texmf-dist/tex/latex/microtype/microtype.cfg
 INPUT /usr/share/texmf-dist/tex/latex/float/float.sty
 INPUT /usr/share/texmf-dist/tex/latex/float/float.sty
+INPUT /usr/share/texmf-dist/tex/latex/multirow/multirow.sty
+INPUT /usr/share/texmf-dist/tex/latex/multirow/multirow.sty
+INPUT /usr/share/texmf-dist/tex/latex/tools/longtable.sty
+INPUT /usr/share/texmf-dist/tex/latex/tools/longtable.sty
 INPUT ./main.aux
 INPUT ./main.aux
 INPUT main.aux
@@ -135,8 +139,6 @@ INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 OUTPUT main.pdf
 INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
-INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
-INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT ./main.toc
 INPUT ./main.toc
 INPUT main.toc
@@ -158,6 +160,10 @@ INPUT ./main.lot
 INPUT ./main.lot
 INPUT main.lot
 OUTPUT main.lot
+INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
+INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
+INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT ./images/fig1_theoretical_framework.png
 INPUT ./images/fig1_theoretical_framework.png
 INPUT ./images/fig1_theoretical_framework.png
@@ -195,6 +201,10 @@ INPUT ./images/fig6_project_timeline.png
 INPUT ./images/fig6_project_timeline.png
 INPUT ./images/fig6_project_timeline.png
 INPUT ./images/fig6_project_timeline.png
+INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
+INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
+INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmti12.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmcsc10.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmtt12.tfm
@@ -202,10 +212,12 @@ INPUT main.aux
 INPUT main.run.xml
 OUTPUT main.run.xml
 INPUT /home/asterisk/.texlive/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.600pk
+INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb
+INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb

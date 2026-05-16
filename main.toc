@@ -19,12 +19,21 @@
 \contentsline {section}{\numberline {2.6}Statistical Tools}{19}{}%
 \contentsline {section}{\numberline {2.7}Statistical Treatment of Data}{20}{}%
 \contentsline {section}{\numberline {2.8}Systems Design}{21}{}%
-\contentsline {chapter}{\numberline {3}Results and Discussions}{29}{}%
-\contentsline {section}{\numberline {3.1}Results}{29}{}%
-\contentsline {subsection}{\numberline {3.1.1}Problem 1}{29}{}%
-\contentsline {subsection}{\numberline {3.1.2}Problem 2}{29}{}%
-\contentsline {subsection}{\numberline {3.1.3}Problem 3}{29}{}%
-\contentsline {section}{\numberline {3.2}Design and System Plans}{29}{}%
-\contentsline {section}{\numberline {3.3}Summary of Findings}{29}{}%
-\contentsline {section}{\numberline {3.4}Conclusions}{29}{}%
-\contentsline {section}{\numberline {3.5}Recommendations}{29}{}%
+\contentsline {chapter}{\numberline {3}Results and Discussion}{30}{}%
+\contentsline {section}{\numberline {3.1}Profile of the Respondents}{30}{}%
+\contentsline {section}{\numberline {3.2}Current State of Flood Monitoring in Barangay Trianggulo}{31}{}%
+\contentsline {subsection}{\numberline {3.2.1}Current Flood Monitoring Methods}{31}{}%
+\contentsline {subsection}{\numberline {3.2.2}Frequency of Flood Monitoring Activities}{32}{}%
+\contentsline {subsection}{\numberline {3.2.3}Status of Flood Early Warning System (FEWS)}{32}{}%
+\contentsline {subsection}{\numberline {3.2.4}Communication Methods for Flood Warnings}{33}{}%
+\contentsline {subsection}{\numberline {3.2.5}Budget Allocation for Flood Monitoring}{33}{}%
+\contentsline {section}{\numberline {3.3}Challenges and Limitations in Current Flood Monitoring}{34}{}%
+\contentsline {section}{\numberline {3.4}Desired Features of the Proposed System}{35}{}%
+\contentsline {section}{\numberline {3.5}Non-Functional Requirements of the Proposed System}{36}{}%
+\contentsline {section}{\numberline {3.6}Visualization and Interface Preferences}{37}{}%
+\contentsline {subsection}{\numberline {3.6.1}Preferred Visual Displays}{37}{}%
+\contentsline {subsection}{\numberline {3.6.2}Helpfulness Ratings of Specific Visualization Types}{38}{}%
+\contentsline {subsection}{\numberline {3.6.3}Preferred Device for Accessing the System}{39}{}%
+\contentsline {section}{\numberline {3.7}Summary of Findings}{39}{}%
+\contentsline {section}{\numberline {3.8}Conclusions}{39}{}%
+\contentsline {section}{\numberline {3.9}Recommendations}{39}{}%
