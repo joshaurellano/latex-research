@@ -149,8 +149,7 @@ Another supporting theory is the Diffusion of Innovation (DOI) Theory, populariz
     height=0.5\textheight,
     keepaspectratio
 ]{fig1_theoretical_framework}
- \caption{The proposed framework integrates three Information Systems (IS) theories---DeLone and McLean IS Success Model (D\&M), the Unified Theory of Acceptance and Use of Technology (UTAUT), and the Diffusion of Innovation (DOI) theory---to evaluate the success, acceptance, and adoption of the flood monitoring and forecasting system.
-}
+ \caption{Theoretical Framework}
 \end{figure}
 
 \section{Conceptual Framework}
@@ -159,7 +158,7 @@ This study implemented the enhanced system paradigm (Input-Process-Output-Outcom
 
 \begin{figure}[H]
     \includegraphics[width=\textwidth, height=0.5\textheight]{fig2_conceptual_framework}
-    \caption{Conceptual Framework: System Paradigm model with feedback loop of the Data-driven Approach in Flood Monitoring and Forecasting System}
+    \caption{Conceptual Framework}
     \label{fig:conceptual_framework}
 \end{figure}
 
@@ -456,13 +455,12 @@ The process initiates in the Data Providers pool, where external weather and hyd
 
 Upon receiving the risk level, an exclusive gateway routes the process into three distinct workflows based on severity---High Risk, where the system triggers emergency alerts and sends immediate push notifications to residents; Moderate Risk, where the system sends an early warning advisory; and Low Risk, where the system only updates the internal system dashboard and logs the update. The process concludes in the Dashboard pool where the status update and forecast data would be reflected and show the relevant advisories to the end-users.
 
-\begin{figure}[htbp]
+\begin{figure}[H]
     \centering
-    \includegraphics[width=0.90\textwidth,height=0.90\textheight, keepaspectratio]{fig4_bpmn_diagram}
+    \includegraphics[width=0.60\textwidth,height=0.90\textheight, keepaspectratio]{fig4_bpmn_diagram}
     \caption{Business Process Model Notation for Proposed Data-Driven Flood Monitoring and Forecasting System}
     \label{fig:bpmn}
 \end{figure}
-\clearpage
 
 \subsection*{System Architecture}
 
@@ -472,7 +470,7 @@ Hydrological and meteorological data are obtained from PAGASA and other third-pa
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.90\textwidth,height=0.50\textheight, keepaspectratio]{fig5_system_architecture}
+    \includegraphics[width=\textwidth,height=0.40\textheight, keepaspectratio]{fig5_system_architecture}
     \caption{System Architecture of Proposed Data-driven Flood Monitoring and Forecasting System}
     \label{fig:architecture}
 \end{figure}
@@ -1074,13 +1072,190 @@ The high preference for smartphones reinforces the system design requirement for
 mobile compatibility (Android and iOS), while the desire for a public display screen
 suggests a dual-access design --- one for personal mobile use and another for
 community-level viewing in public spaces.
-\section{Summary of Findings}
+\section{Summary of Findings, Conclusions and Recommendations}
+This presents the summary of findings conducted by the study as well as conclusions
+and recommendations.
 
-\section{Conclusions}
+\subsection{Summary of Findings}
 
-\section{Recommendations}
+The study aimed to design and develop a data-driven flood monitoring and forecasting
+system (FMFS) for Barangay Triangulo, Naga City, with the goal of addressing gaps in
+the barangay's existing manual flood monitoring practices. A total of 78 respondents
+participated in the survey, composed of 66 barangay residents (84.61\%) and 12
+barangay officials (15.39\%). The majority belonged to the 18--35 age group (75.65\%),
+suggesting a population generally receptive to technology-based flood monitoring
+solutions.
 
-\clearpage
+Key findings revealed that the barangay's flood monitoring remains predominantly
+manual and reactive. Manual visual inspection and physical patrols (73.08\%) served as
+the most widely used monitoring method, followed by social media monitoring via
+Facebook (55.13\%) and manual river water level observation (46.15\%). Only 7.69\% of
+respondents reported the use of automated sensors or IoT devices, and 5.13\% noted the
+complete absence of any formal monitoring system. Monitoring activities were largely
+event-driven, with 41.03\% of respondents indicating that monitoring is conducted only
+when typhoon or heavy rain warnings are issued.
+
+Regarding the Flood Early Warning System (FEWS), 42.31\% of respondents
+acknowledged that although one exists, it is not fully operational, while only 38.46\%
+considered it fully functional. Flood warnings are primarily communicated through
+megaphones and public announcements (67.95\%), Facebook (58.97\%), and SMS
+(39.74\%). Budget constraints were identified as the most significant challenge
+($WM = 3.11$), alongside over-reliance on manual human effort ($WM = 3.04$),
+outdated equipment ($WM = 2.87$), communication breakdowns ($WM = 2.83$), and
+slow warning dissemination ($WM = 2.83$).
+
+In terms of system requirements, respondents strongly supported the development of a
+comprehensive, data-driven FMFS. All twelve proposed functional features were rated
+in the Extremely Important range ($WM$: 4.28--4.52), with automated flood alerts and
+real-time water level monitoring receiving the highest ratings at 4.52 each. All ten
+non-functional requirements were likewise rated Extremely Important ($WM$:
+4.28--4.53), led by backup power capability and automated DRRM report generation
+(4.53 each).
+
+For visualization preferences, the color-coded flood alert level map
+(Green/Yellow/Orange/Red) was the most preferred display format (88.46\%) and
+received the highest helpfulness rating at 4.64. Real-time water level gauges (70.51\%)
+and evacuation route maps (60.26\%) also ranked highly. Personal smartphones were the
+most preferred device for accessing the system (73.08\%), reinforcing the need for a
+mobile-first design with offline and low-bandwidth capabilities.
+
+\subsubsection*{Problem \#1: What is the current status of disaster management in monitoring flooding in the barangay?}
+
+\textbf{Conclusion.} The current state of flood monitoring in Barangay Triangulo is
+largely manual, reactive, and insufficiently equipped to provide timely warnings during
+critical flood events. The absence of a fully operational FEWS and the heavy
+dependence on informal communication channels such as megaphone announcements
+and Facebook updates indicate a significant gap in the barangay's disaster
+preparedness infrastructure. With monitoring activities predominantly triggered only
+by typhoon warnings, residents remain vulnerable to rapidly rising flood conditions
+where advance warning is most needed.
+
+\textbf{Recommendations.} The barangay should prioritize the formal adoption of the
+proposed data-driven FMFS as a core component of its Barangay Disaster Risk
+Reduction and Management (BDRRM) Plan. Transitioning from reactive to proactive
+monitoring requires not only the deployment of the system but also its official
+integration into DRRM operational procedures and policies. The City Government of
+Naga should likewise be engaged to provide institutional support, funding, and
+technical assistance to ensure the system's long-term sustainability. Regular
+monitoring reviews should be scheduled even during dry seasons to maintain system
+readiness throughout the year.
+
+\subsubsection*{Problem \#2: What are the specific limitations and challenges encountered by the disaster management team using current flood monitoring methods?}
+
+\textbf{Conclusion.} The disaster management team in Barangay Triangulo faces
+multiple compounding challenges that collectively undermine effective flood
+monitoring. Budget constraints ($WM = 3.11$), over-reliance on manual effort
+($WM = 3.04$), and the use of outdated equipment ($WM = 2.87$) emerged as the
+most pressing barriers, alongside communication breakdowns, insufficient manpower,
+and the absence of real-time data. A Barangay Councilor's remark that technology
+accounts for only 30\% of an effective flood system---with the remaining 70\%
+depending on maintenance, personnel, local knowledge, and trust---underscores that
+challenges extend well beyond infrastructure and require a broader institutional and
+community response.
+
+\textbf{Recommendations.} Addressing these challenges requires a dual approach that
+combines technology deployment with organizational reform. The proposed system
+should be designed to automate processes currently dependent on manual effort,
+thereby reducing the burden on limited personnel. Training programs for BDRRMO
+staff on system operation, data interpretation, and basic troubleshooting should be
+conducted prior to and after deployment. The barangay should also explore
+partnerships with academic institutions, local government units, and national agencies
+such as DOST and NDRRMC to supplement budget constraints. Establishing clear
+standard operating procedures (SOPs) for flood response that are integrated with the
+proposed system will further address the challenge of inconsistent protocols.
+
+\subsubsection*{Problem \#3: What are the critical functional and non-functional requirements needed to develop a proactive, data-driven flood monitoring and forecasting system tailored to the needs of the barangay?}
+
+\textbf{Conclusion.} Respondents expressed a unanimous and strong demand for a
+comprehensive, fully-featured FMFS. All twelve functional features were rated
+Extremely Important ($WM$: 4.28--4.52), with automated flood alerts, real-time water
+level monitoring, real-time rainfall data, and PAGASA integration emerging as the
+highest priorities. Similarly, all ten non-functional requirements were rated Extremely
+Important ($WM$: 4.28--4.53), with backup power operation, automated DRRM report
+generation, and affordability of maintenance leading the rankings. These results
+confirm that the proposed system must be built as an integrated platform addressing
+the full spectrum of flood monitoring, forecasting, alert dissemination, and disaster
+reporting---rather than a limited, single-purpose tool.
+
+\textbf{Recommendations.} System development should strictly adhere to the
+requirements identified through this study, prioritizing automated alert notification,
+real-time PAGASA data integration, flood risk zone mapping, and mobile accessibility
+in the initial release. Backup power mechanisms and offline functionality should be
+incorporated from the system architecture phase, not treated as optional enhancements.
+Agile development methodology should be maintained to allow continuous stakeholder
+feedback throughout development sprints. Future iterations may consider expanding
+data inputs to include drainage system conditions and sensor-based water level
+readings as additional funding and infrastructure become available.
+
+\subsubsection*{Problem \#4: What is the level of compatibility between the proposed system and the existing operational procedures and resource capabilities of the disaster management team?}
+
+\textbf{Conclusion.} The proposed data-driven FMFS demonstrates a moderate to high
+level of compatibility with the barangay's existing operational context. The system's
+planned alert channels---SMS, Facebook notifications, and push alerts---align directly
+with the communication methods already used by the barangay, including SMS blasts
+(39.74\%), social media (58.97\%), and megaphone announcements (67.95\%). The
+existing use of PAGASA advisories by 37.18\% of respondents also supports the
+system's data integration design. However, the barangay's heavy reliance on manual
+monitoring and limited technical capacity indicate that transition support and capacity
+building will be critical for successful adoption.
+
+\textbf{Recommendations.} A co-design approach involving BDRRMO personnel,
+barangay officials, and residents should be sustained throughout the development and
+testing phases to ensure the system reflects actual workflows and resource realities.
+User onboarding materials in both English and Bikol dialect should be developed
+alongside the system to support varied literacy levels among the user base. The system
+interface must maintain simplicity and minimize navigation steps, particularly for older
+users and those with limited digital experience. A public information campaign should
+accompany system deployment to build community awareness and trust in the new
+technology.
+
+\subsubsection*{Problem \#5: What visualization methods for flood forecasting data can ensure easy interpretation and actionability for non-technical LGU officials during emergency situations?}
+
+\textbf{Conclusion.} Non-technical LGU officials and barangay residents strongly
+prefer intuitive, color-coded, and spatially meaningful visualizations over text-heavy
+or technically complex displays. The color-coded flood alert level map
+(Green/Yellow/Orange/Red) was the most preferred display format (88.46\%) and
+received the highest helpfulness rating of 4.64 (Extremely Helpful), followed by
+rainfall intensity displays ($WM = 4.45$), predicted water level graphs ($WM = 4.40$),
+and evacuation route overlays ($WM = 4.40$). These preferences confirm that the
+system interface must prioritize speed of comprehension and actionability, enabling
+officials and residents to make informed decisions within seconds during emergencies.
+
+\textbf{Recommendations.} The system dashboard should adopt the standard
+color-coded alert hierarchy (Green/Yellow/Orange/Red) consistent with PAGASA and
+NDRRMC classifications as its primary visual framework. Evacuation route overlays
+and real-time water level gauges with threshold markers should be prominently
+featured in the main dashboard view. All visual elements should use large, readable
+typography with minimal navigation steps to accommodate non-technical users
+including senior citizens. Pop-up notifications with recommended actions should be
+incorporated to translate data into clear guidance during emergencies. A
+Bikol-language interface option should be developed as a priority feature to enhance
+accessibility and comprehension among local residents.
+
+\subsubsection*{Problem \#6: What is the level of user acceptability of the developed system among officials and residents in terms of usability, reliability, and functionality?}
+
+\textbf{Conclusion.} While the formal user acceptance evaluation of the system
+prototype is to be conducted in a subsequent phase, the survey findings establish a
+strong foundation of community readiness and receptivity. The uniformly high
+importance ratings across all functional ($WM$: 4.28--4.52) and non-functional
+requirements ($WM$: 4.28--4.53), together with the predominance of tech-savvy
+younger respondents (75.65\% aged 18--35), indicate a highly favorable predisposition
+toward adopting the system. Qualitative responses further suggest that user acceptance
+will be meaningfully shaped by local language support, multi-channel notifications,
+backup power provisions, and the overall simplicity of the interface.
+
+\textbf{Recommendations.} A structured User Acceptance Testing (UAT) phase should
+be conducted using Likert-based evaluation instruments aligned with the DeLone and
+McLean IS Success Model, measuring system quality, information quality, and
+usability, as well as UTAUT dimensions of performance expectancy and effort
+expectancy. The evaluation should include respondents from both barangay official and
+resident groups, representing a range of age brackets and educational backgrounds to
+capture diverse perspectives. Findings from UAT should directly inform final
+refinements before system deployment, with identified usability gaps addressed through
+iterative development. Post-deployment monitoring should likewise be established to
+track user satisfaction and system reliability over time.
+
+
 
 % ─────────────────────────────────────────────
 % REFERENCES
