@@ -21,13 +21,13 @@
 \contentsline {section}{\numberline {2.8}Systems Design}{21}{}%
 \contentsline {chapter}{\numberline {3}Results and Discussion}{30}{}%
 \contentsline {section}{\numberline {3.1}Profile of the Respondents}{30}{}%
-\contentsline {section}{\numberline {3.2}Current State of Flood Monitoring in Barangay Trianggulo}{31}{}%
+\contentsline {section}{\numberline {3.2}Current State of Flood Monitoring}{31}{}%
 \contentsline {subsection}{\numberline {3.2.1}Current Flood Monitoring Methods}{31}{}%
 \contentsline {subsection}{\numberline {3.2.2}Frequency of Flood Monitoring Activities}{32}{}%
 \contentsline {subsection}{\numberline {3.2.3}Status of Flood Early Warning System (FEWS)}{32}{}%
-\contentsline {subsection}{\numberline {3.2.4}Communication Methods for Flood Warnings}{33}{}%
+\contentsline {subsection}{\numberline {3.2.4}Communication Methods for Flood Warnings}{32}{}%
 \contentsline {subsection}{\numberline {3.2.5}Budget Allocation for Flood Monitoring}{33}{}%
-\contentsline {section}{\numberline {3.3}Challenges and Limitations in Current Flood Monitoring}{34}{}%
+\contentsline {section}{\numberline {3.3}Challenges and Limitations in Current Flood Monitoring}{33}{}%
 \contentsline {section}{\numberline {3.4}Desired Features of the Proposed System}{35}{}%
 \contentsline {section}{\numberline {3.5}Non-Functional Requirements of the Proposed System}{36}{}%
 \contentsline {section}{\numberline {3.6}Visualization and Interface Preferences}{37}{}%
