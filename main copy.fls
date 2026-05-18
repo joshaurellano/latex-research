@@ -1,7 +1,7 @@
 PWD c:\Users\janth\Desktop\Playground\latex-research
 INPUT C:\Users\janth\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\janth\Desktop\Playground\latex-research\main.tex
-OUTPUT main.log
+INPUT c:\Users\janth\Desktop\Playground\latex-research\main copy.tex
+OUTPUT main copy.log
 INPUT .\research.cls
 INPUT research.cls
 INPUT C:\Program Files\MiKTeX\tex\latex\base\report.cls
@@ -113,19 +113,19 @@ INPUT C:\Users\janth\AppData\Roaming\MiKTeX\tex\latex\multirow\multirow.sty
 INPUT C:\Users\janth\AppData\Roaming\MiKTeX\tex\latex\multirow\multirow.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\tools\longtable.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\tools\longtable.sty
-INPUT .\main.aux
-INPUT .\main.aux
-INPUT main.aux
-OUTPUT main.aux
+INPUT .\main copy.aux
+INPUT .\main copy.aux
+INPUT main copy.aux
+OUTPUT main copy.aux
 INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\lbx\english.lbx
 INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\lbx\english.lbx
 INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\lbx\english.lbx
-OUTPUT main.bcf
-INPUT main.bbl
-INPUT .\main.bbl
-INPUT .\main.bbl
-INPUT .\main.bbl
-INPUT main.bbl
+OUTPUT main copy.bcf
+INPUT main copy.bbl
+INPUT .\main copy.bbl
+INPUT .\main copy.bbl
+INPUT .\main copy.bbl
+INPUT main copy.bbl
 INPUT C:\Program Files\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Program Files\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Program Files\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
@@ -139,11 +139,11 @@ INPUT C:\Users\janth\AppData\Roaming\MiKTeX\tex\latex\microtype\mt-cmr.cfg
 INPUT C:\Users\janth\AppData\Roaming\MiKTeX\tex\latex\microtype\mt-cmr.cfg
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr17.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
-OUTPUT main.pdf
+OUTPUT main copy.pdf
 INPUT C:\Users\janth\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
-INPUT .\main.toc
-INPUT .\main.toc
-INPUT main.toc
+INPUT .\main copy.toc
+INPUT .\main copy.toc
+INPUT main copy.toc
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr8.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr6.tfm
@@ -153,15 +153,15 @@ INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmmi6.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmsy8.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmsy6.tfm
-OUTPUT main.toc
-INPUT .\main.lof
-INPUT .\main.lof
-INPUT main.lof
-OUTPUT main.lof
-INPUT .\main.lot
-INPUT .\main.lot
-INPUT main.lot
-OUTPUT main.lot
+OUTPUT main copy.toc
+INPUT .\main copy.lof
+INPUT .\main copy.lof
+INPUT main copy.lof
+OUTPUT main copy.lof
+INPUT .\main copy.lot
+INPUT .\main copy.lot
+INPUT main copy.lot
+OUTPUT main copy.lot
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr17.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
@@ -228,9 +228,9 @@ INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx10.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmti12.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmcsc10.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmtt12.tfm
-INPUT main.aux
-INPUT main.run.xml
-OUTPUT main.run.xml
+INPUT main copy.aux
+INPUT main copy.run.xml
+OUTPUT main copy.run.xml
 INPUT C:\Users\janth\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1200.pk
 INPUT C:\Users\janth\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1200.pk
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb
