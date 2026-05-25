@@ -1,0 +1,38 @@
+# ============================================================
+# LaTeX .gitignore
+# ============================================================
+ 
+# --- Compiled output (keep .pdf if you want to track it) ---
+*.pdf
+*.synctex.gz
+*.synctex(busy)
+ 
+# --- Auxiliary / build files ---
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.lof
+*.log
+*.lot
+*.out
+*.run.xml
+*.toc
+*.xdv
+ 
+# --- Editor / tooling ---
+*.fls
+*.nav
+*.snm
+*.vrb
+*.dvi
+*.ps
+ 
+# --- Backup / temp files ---
+*~
+*.bak
+*.swp
+*.swo
+*.tmp
