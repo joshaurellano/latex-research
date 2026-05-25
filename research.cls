@@ -23,7 +23,7 @@
 \pagestyle{fancy}
 \fancyhf{}
 \renewcommand{\headrulewidth}{0pt}
-\fancyhead[R]{\thepage}
+\fancyfoot[C]{\thepage}
 
 % Avoid widow and orphan (no hanging pages)
 \clubpenalty=10000
