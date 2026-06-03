@@ -226,24 +226,21 @@ in most studies that were made.
 \subsection*{Proactive Warning Systems}
 
 Proactive warning efforts are substantial part of effective flood forecasting \cite{Fang_Johnson_Sankarasubramanian_2024}.
-Leveraging different sources 
-using AI models as they are capable of processing large data at a fast rate \cite{demelo2024early,zlopasa2024leveraging}. 
+Leveraging different sources using AI models as they are capable of processing large data at a fast rate \cite{demelo2024early,zlopasa2024leveraging}. 
 Flood Early Warning System (FEWS) enables early warning from flood risk but remains a challenge in urban landscapes \cite{hofmann2020risk,lee2020integrated,palash2024datadriven} 
 and flash floods due to complexity \cite{soares2025ml4ff}.
 
 AI/ML becomes a factor in how traditional FEWS shifts from reactive to proactive \cite{alrawas2024critical,piadeh2022critical} 
 as there is a growing need for reliable flood forecasting systems due to urbanization and 
-climate change \cite{fernandeznovoa2024enhancing,hossoda2025datadriven,oddo2024deep}. 
-Several studies \cite{lee2023maxfloodcast,alasali2021sustainable,najafi2024high} 
-highlighted that proactive warning systems provide critical information which aids in 
-emergency response.
+climate change \cite{fernandeznovoa2024enhancing,hossoda2025datadriven,oddo2024deep}. Several studies \cite{lee2023maxfloodcast,alasali2021sustainable,najafi2024high} 
+highlighted that proactive warning systems provide critical information which aids in emergency response.
 
 The use of ML and LSTM networks shows remarkable performance in estimating workflow, 
 identifying patterns and enhancing accuracy \cite{nevo2022flood,khan2025development,aravamudan2025superresolution}. 
 LSTM emerged as the dominant algorithm \cite{kuhaneswaran2025evolution} among others while 
 ML used in hybrid frameworks overcomes limitations of physical-based models \cite{li2024optimizing,refadah2025development}. 
-Deep learning models gained popularity in flood forecasting due to improved accuracy and 
-computational ability compared to traditional ML methods \cite{situ2024improving,yi2024reservoir}.
+Deep learning models gained popularity in flood forecasting due to improved accuracy and computational ability compared to traditional ML 
+methods \cite{situ2024improving,yi2024reservoir}.
 
 Several systems and models were also explored such as Extreme Gradient Boosting (XGBoost) 
 that forecasts flood stages without requiring external triggers \cite{sanders2022datadriven}, 
@@ -267,17 +264,47 @@ prepare.
 
 \section{Synthesis of the State of the Art}
 
-Traditional flood monitoring and forecasting systems use physical-based technologies \cite{tao2024review,bukhari2025review,dondang2021design,tolentino2022real} but limitations including high costs, maintenance and communications exist. Also, measurement errors in ultrasonic sensors nearing water surfaces \cite{te2024smart}, battery capacity and short circuit \cite{zhao2025water}, difficulty capturing complex and nonlinear flood events \cite{linus2024performance}, challenges in modeling urban hydrological systems \cite{ye2025capturing}, as well as unseen events on flood depth measurements \cite{liu2025comprehensive}. Despite existing studies, they fail to address connectivity range, microcontroller processing capabilities, sensing accuracy, energy consumption, and practical implementation which shows the need for more efficient and reliable FMFS \cite{zakaria2023development}.
+Many existing literature shows clear transition from non-data driven approaches of flood monitoring to a data driven system. Factors including 
+limited scope, high cost, vulnerability to extreme conditions, inability to facilitate preventive measures from manual flooding methods 
+\cite{bukhari2025review}\cite{Won_Lee_Moon_Moon_2022} \cite{KHOSHKONESH2024175859}\cite{Pahuriray_Cerna_2025}\cite{idoghor2026remote}
+\cite{Sengupta_2024}\cite{Ikechukwu_Idigo_Nnebe_Ozue_Agwunobi_2024}\cite{tolentino2022real}\cite{Attobrah_Ohaka_Ifionu_Njemanze_Okonkwo_2026}
+\cite{Khan2025}\cite{w15010178} drives to this change. These constraints is easily seen in the Philippine due to the lack of a formal river 
+mapping process, low awareness on flood management technology among communities \cite{Crucillo_Lucero_Gelito_Medina_Palconit_2026}
+\cite{demesa2025gis}. This inefficiencies results in data silos leading to insufficient coordination, delay in response, and poor flood 
+preparation \cite{Mukherjee2024}\cite{rs17173104}. With the growing utilization of data driven models with increase in 4x since 2010 as cited 
+by \cite{davary2026}, they resolve these problems by processing historical relationships of inputs and outputs to predict floods in high speed 
+with unprecedented accuracy utilizing AI and ML capabilities \cite{GAO2024132228}\cite{anik2025evolution}\cite{Rashid_Abidin_Abas_2024}
+\cite{Wang_Wu_Yichen_2025}, providing an advance of 5-10 days for preparing communities from the disaster \cite{palash2024datadriven}
+\cite{w14142221}\cite{Mirro2025}\cite{kuhaneswaran2025evolution} with the provision of swift, credible and relevant information to all the 
+stakeholders concerned \cite{Hammood_Hammood_Aliesawi_Osiobe_Hasan_Malallah_Abbas_2024}\cite{koutsovili2023early}
+\cite{samansiri2023characteristics}\cite{H_Warni_Angriawan_Hariadi_Arif_Maulina_2024}\cite{11209450}.
 
-Data-driven approaches outperform traditional methods \cite{an2025hybrid}, by supporting flood prevention decisions \cite{aldhafiri2025leveraging,xu2024hybrid} that enhance emergency response \cite{yi2024reservoir}, addressing gaps \cite{rathnasiri2023datadriven}, enhancing accuracy \cite{aravamudan2025superresolution}, simulating flood processes \cite{tang2023flood}, and maintaining reliable performance across varying conditions \cite{asif2025review}. The integration of ML and AI models expanded FMFS capabilities \cite{chiang2024efficient,liu2024generative}, with Deep Learning forecasting accuracy \cite{kuhaneswaran2025evolution,ni2024datadriven} reducing computational time \cite{cache2024enhancing,mou2025ai} and handling large data \cite{ghorpade2021flood}, as stated by \cite{anik2025evolution,lou2026highly,chafjiri2024enhancing}, with effectiveness that shows in small to large river basins \cite{palash2024datadriven,okuno2021practical}.
+For effective data driven flood forecasting, utilization of multiple source of data is imperative, as disparate and segregated data result in 
+low interoperability and poor reliability of the forecast model \cite{Istihat_Widyarto_Ahmad}\cite{TEDLA2024131076}
+\cite{Fang_Johnson_Sankarasubramanian_2024}\cite{Quang_Van_Thanh_2025}\cite{smartcities8030091}\cite{w14142160}\cite{H_Rao_Rao_J_Rao_Rao_2023}
+\cite{nazari2026}\cite{cli12050067}\cite{byaruhanga2024evolution}. By integrating different types of data, accuracy in prediction and 
+monitoring capability are enhanced \cite{Wang_Abdelrahman_2023}\cite{ZHU2025134074}\cite{XU2025134243}, enabling the decision-makers to view 
+the current flood scenario comprehensively \cite{song2024stateart}\cite{reinert_2025}\cite{Fan_Zeng_Pang_Wang_Wei_2025}\cite{11089725}
+\cite{FloodNet_2024}\cite{w15010178}\cite{Ragib2025}. Digital twins, web-based Flood Management Systems, Hybrid Hydrodynamic-CNN-LSTM models 
+predicting urban flood up to 10s with an error of 6.50\% and data driven visualization models have also provided further insights to how the 
+utilization of multi-source data brings an effective and proactive decision making \cite{rs17173104}\cite{MCRAPALO2024131929}
+\cite{Basari_Alazzam_Abdirahim_Lah_Ahmad_Mustapha_2026}\cite{DANG2025106246}\cite{w15071397}\cite{LIU2025101960}
+\cite{Akinsoji_Adelodun_Adeyi_Salau_Odey_Choi_2024}\cite{DiBacco_Molinari_Scorzini_2024}\cite{Hofmeistetal_2024}.
 
-Data integration and modeling have become the foundation to scalable and accurate FMFS as scarcity of observed data and limitation of single sources pose significant challenges \cite{song2024stateart,magro2025urban}. It enhances system accuracy and response time \cite{kumar2023state,shen2025new}. Integrating different data improves detection of sudden flood events in coastal urban areas \cite{shampa2025integration}, enables comprehensive flood datasets \cite{dong2022predictive}, and leverages weather forecasts and urban hydrology for better prediction \cite{li2024optimizing,thaisiam2024utilizing}. Feature separation techniques outperform existing approaches \cite{thaisiam2024utilizing}. Designs lacking temporal modeling perform poorly on unseen events \cite{feng2025comparative,gharehbaghi2025developing}. The evolution from Time Series Models to increasingly complex ML models brought enhanced accuracy and dependability, but at higher technical cost \cite{byaruhanga2024evolution}.
+Building on integrated data foundation, proactive warning system represents the proactive face of flood forecasting with proactive measures 
+implemented via artificial and machine learning towards early prediction systems \cite{alrawas2024critical}\cite{piadeh2022critical}
+\cite{Fang_Johnson_Sankarasubramanian_2024}\cite{demelo2024early}\cite{zlopasa2024leveraging}; a dire necessity for rising urban populations, 
+climate challenges, and the increasing demand for Flood Early Warning Systems (FEWS) \cite{fernandeznovoa2024enhancing}
+\cite{hossoda2025datadriven}\cite{oddo2024deep}\cite{hofmann2020risk}\cite{lee2020integrated}\cite{soares2025ml4ff}. Most of the studies 
+utilize LSTM, (the latest technology in forecasting) \cite{kuhaneswaran2025evolution}\cite{nevo2022flood}\cite{khan2025development}
+\cite{aravamudan2025superresolution}. Deep and hybrid frameworks perform better than traditional physical model-based flood forecasts in 
+regards to accuracy and speed \cite{li2024optimizing}\cite{refadah2025development}\cite{situ2024improving}\cite{yi2024reservoir}. 
+Other models include XGBoost \cite{sanders2022datadriven}, EO-based systems \cite{destefanis2025advancing}, Markov chain models 
+\cite{bibbo2025flood}, community-based EWSS \cite{cheong2024development}, hydrometeorological based approaches \cite{troselj2023realtime}, 
+PSO-TCN-Bootstrap approach \cite{yu2025research}, DQN-TD3 hybrid frameworks \cite{rashid2024realtime}, and Big Data platform 
+\cite{hou2025development}, these models can make a real time predictive forecast by providing rapid and reliable leads time to the users, 
+giving them ample amount of time for mitigation \cite{lee2023maxfloodcast}\cite{alasali2021sustainable}\cite{najafi2024high}.
 
-Big Data has also proven effective in forecasting and risk management \cite{ziyatbekova2025integrating,kommanaboina2024realtime}, with techniques connecting temporal forecasting and spatial risk assessment reducing flood impacts \cite{roohi2025hybrid}. CNN models outperform physical-based models on hidden watersheds with minimal processing time \cite{GAO2024132228,guo2022datadriven}, FFNN trained on regional parameters achieves 84\% accuracy \cite{farooq2023ffm}, and LSTM demonstrates strong streamflow prediction capability \cite{kordi2025integrating}, combining with CNN as ConvLSTM reflects flood stage dynamics \cite{priyadharshini2025convlstm}. Integrating NN, DL, and PCA provides efficient computation \cite{guo2020datadriven,mou2025ai,rana2024fusion}, and satellite-based remote sensing provides global flood observation and addresses challenges such as cloud cover and urban complexity \cite{aravamudan2025superresolution,fawakherji2025flood,schumann2023flood}. Models such as ANN, ANFIS, and Data Assimilation produce more accurate and timely predictions \cite{seydi2022fusion,annis2021gfplain}, while AI-enhanced hydrological models identify vulnerable areas and improve forecast accuracy \cite{ougahi2025enhanced,yang2024advancing}.
-
-The advancement of AI and ML paved the way for proactive FEWS from reactive \cite{alrawas2024critical,piadeh2022critical} due to growing demands \cite{fernandeznovoa2024enhancing,hossoda2025datadriven,oddo2024deep}. Proactive systems offer critical information aiding emergency response \cite{lee2023maxfloodcast,alasali2021sustainable,najafi2024high}. However, they continue to face challenges particularly in urban landscapes \cite{hofmann2020risk,lee2020integrated,palash2024datadriven} and flash flood scenarios due to complexity \cite{soares2025ml4ff}, which AI/ML models address through processing large data \cite{demelo2024early,zlopasa2024leveraging}. LSTM networks emerged as the dominant algorithm for streamflow estimation and pattern recognition \cite{kuhaneswaran2025evolution,nevo2022flood,khan2025development,aravamudan2025superresolution} and hybrid ML frameworks overcome limitations of physics-based models \cite{li2024optimizing,refadah2025development}. Deep learning models have gained prominence due to improved accuracy and computational efficiency over traditional ML methods \cite{situ2024improving,yi2024reservoir}.
-
-Various systems and models were explored, including XGBoost for trigger-free flood stage forecasting \cite{sanders2022datadriven}, EO-based systems for near-real-time flood depth estimation \cite{destefanis2025advancing}, Markov chains for improved forecast accuracy alongside emergency protocols \cite{bibbo2025flood}, community-focused EWS capabilities \cite{cheong2024development}, hydrometeorological methods for real-time flash flood forecasting \cite{troselj2023realtime}, the PSO--TCN--Bootstrap model that was superior on river basins \cite{yu2025research}, a hybrid Deep Q-Network and Twin Delayed DDPG framework for addressing uncertainty \cite{rashid2024realtime}, and Big Data-driven monitoring for accurate inundation assessment and disaster severity evaluation \cite{hou2025development}.
 
 \section{Gap Bridged by the Study}
 
